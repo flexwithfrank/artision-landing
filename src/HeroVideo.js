@@ -12,9 +12,10 @@ const HeroVideo = () => {
             class="min-w-full min-h-full absolute object-cover"
             src="https://ik.imagekit.io/dy6awnd3c/video__6_.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1672686657255"
             autoPlay
+            loop="true" autoplay="autoplay"
             type="video/mp4"
             muted
-            loop
+            
           ></video>
         </div>
         <div class="video-content space-y-2">
