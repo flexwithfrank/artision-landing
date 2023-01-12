@@ -20,7 +20,7 @@ const HeroVideo = () => {
         <div class="video-content space-y-2">
           <div class="max-w-3xl text-center sm:text-left">
             <h2 class="lg:leading-[4rem] text-white text-3xl md:text-5xl mb-3 pb-4 lg:p-0 foa-book ">
-              Long‒Term Resource Resilience and Management{" "}
+              Long Term Resource Resilience and Management{" "}
               <span class="foa lg:leading-[4rem] text-blue-400">for Security and Value</span>
             </h2>
 
