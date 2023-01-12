@@ -15,7 +15,7 @@ const HeroVideo = () => {
             loop="true" autoplay="autoplay"
             type="video/mp4"
             muted
-            
+            playsinline
           ></video>
         </div>
         <div class="video-content space-y-2">
