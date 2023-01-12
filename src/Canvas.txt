@@ -1,0 +1,9 @@
+<HeroSectionV2 />
+<WhoWeAreV2 />
+<PartnerLogos />
+<HeadlineTextSection />
+<Mission />
+<AboutUs />
+<LearnMore />
+<RecentProjects />
+<CTAV1 />
