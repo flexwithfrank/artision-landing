@@ -31,7 +31,7 @@ export default function CTAV1() {
               </p>
               <a
                 href="#"
-                className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-black shadow hover:bg-indigo-50 foa-book"
+                className="mt-8 inline-flex items-center rounded-full border border-transparent bg-white px-5 py-3 text-base font-medium text-black shadow hover:bg-indigo-50 foa-book"
               >
                 Contact us today
               </a>

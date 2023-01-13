@@ -11,10 +11,10 @@ const navigation = {
     { name: "Government", to: "/solutions" },
   ],
   company: [
-    { name: "About", to: "#" },
-    { name: "Mission", to: "#" },
-    { name: "Team", to: "#" },
-    { name: "Partners", to: "#" },
+    { name: "About", to: "/about" },
+    { name: "Mission", to: "/about" },
+    { name: "Team", to: "/about" },
+    { name: "Partners", to: "/about" },
   ],
   legal: [
     { name: "Privacy", to: "#" },
@@ -158,12 +158,12 @@ export default function FooterV2() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
+                      <Link
+                        to={item.to}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -173,12 +173,12 @@ export default function FooterV2() {
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a
-                        href={item.href}
+                      <Link
+                        to={item.to}
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

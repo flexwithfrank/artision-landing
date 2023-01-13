@@ -24,7 +24,7 @@ const HeadlineTextSection = () => {
 
             <button
               type="button"
-              class="text-white hover:text-black bg-transparent outline outline-white hover:bg-white focus:ring-4 focus:border-none focus:ring-blue-300 font-medium rounded-lg text-base px-6 py-3.5 text-center foa-book"
+              class="text-white hover:text-black bg-transparent outline outline-white hover:bg-white focus:ring-4 focus:border-none focus:ring-blue-300 font-medium rounded-full text-base px-6 py-3.5 text-center foa-book"
             >
               Learn More
             </button>

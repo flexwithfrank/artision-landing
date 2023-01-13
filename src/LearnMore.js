@@ -35,7 +35,7 @@ export default function LearnMore() {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className="inline-flex rounded-md border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-600 foa-book"
+                    className="inline-flex rounded-full border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-600 foa-book"
                   >
                     Learn More
                   </a>
@@ -110,7 +110,7 @@ export default function LearnMore() {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className="inline-flex rounded-md border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 foa-book"
+                    className="inline-flex rounded-full border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700 foa-book"
                   >
                     Learn More
                   </a>

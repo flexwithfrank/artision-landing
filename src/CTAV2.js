@@ -29,7 +29,7 @@ export default function CTAV2() {
               <div className="inline-flex rounded-md shadow">
                 <a
                   href="#"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+                  className="inline-flex items-center justify-center rounded-full border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
                 >
                   Visit the help center
                   <ArrowTopRightOnSquareIcon
