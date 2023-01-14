@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function Locations() {
     return (
-      <div className="bg-white">
+      <div className="bg-gray-50">
         <div className="mx-auto max-w-7xl py-8 px-4 sm:px-6 lg:pb-24 lg:px-8 border-t-2">
           <div className="divide-y-2 divide-gray-200">
            
