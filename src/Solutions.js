@@ -7,6 +7,8 @@ import SolutionsDetailV3 from './SolutionsDetailV3';
 import PartnersLogoV2 from './PartnersLogoV2';
 import Globe from './Globe';
 import CTAV4 from './CTAV3';
+import Stats from './Stats';
+import FlyoutMenu from './FlyoutMenu';
 
 const Solutions = () => {
   return (
@@ -14,6 +16,7 @@ const Solutions = () => {
     <SolutionsHero />
     <SolutionsDetails />
     <SolutionsDetailsV2 />
+    <Stats />
     <SolutionsDetailV3 />
     <PartnersLogoV2 />
     <CTAV4 />

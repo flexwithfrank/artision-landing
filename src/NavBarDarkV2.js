@@ -1,5 +1,5 @@
 import React from 'react';
-
+import FlyoutMenu from './FlyoutMenu';
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -18,6 +18,7 @@ const navigation = [
 const NavBarDarkV2 = () => {
   return (
     <>
+    
       <Popover as="header" className="relative">
         <div className="bg-black pt-6 top-0">
           <nav
@@ -52,6 +53,7 @@ const NavBarDarkV2 = () => {
                   </Link>
                 ))}
               </div>
+            
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
               <Link
@@ -111,6 +113,7 @@ const NavBarDarkV2 = () => {
                     </a>
                   ))}
                 </div>
+                
                 <div className="mt-6 px-5">
                   <Link
                     to="/contact"

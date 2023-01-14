@@ -19,7 +19,7 @@ const NavBarLightV2 = ({ color }) => {
   return (
     <>
       <Popover as="header" className="relative">
-        <div style={{backgroundColor: color }} className="bg-gray-50 pt-6 top-0">
+        <div style={{backgroundColor: color }} className="bg-white pt-6 top-0">
           <nav
             className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
             aria-label="Global"
