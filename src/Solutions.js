@@ -6,6 +6,7 @@ import SolutionsDetailsV2 from './SolutionsDetailsV2';
 import SolutionsDetailV3 from './SolutionsDetailV3';
 import PartnersLogoV2 from './PartnersLogoV2';
 import Globe from './Globe';
+import CTAV4 from './CTAV3';
 
 const Solutions = () => {
   return (
@@ -15,6 +16,8 @@ const Solutions = () => {
     <SolutionsDetailsV2 />
     <SolutionsDetailV3 />
     <PartnersLogoV2 />
+    <CTAV4 />
+    <Globe />
    
     <FooterV2 />
     </>

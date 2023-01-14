@@ -7,9 +7,9 @@ const SolutionsDetailsV2 = () => {
         <div class="relative items-center w-full px-5 pt-12 pb-20 mx-auto md:px-12 lg:px-24 max-w-7xl">
           <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-2">
             {/* block 1 */}
-            <div id="container-1">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+            <div id="container-1 ">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"
@@ -51,8 +51,8 @@ const SolutionsDetailsV2 = () => {
             {/* block 2 */}
 
             <div id="container-2">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"
@@ -92,8 +92,8 @@ const SolutionsDetailsV2 = () => {
             </div>
 
             <div id="container-3">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"
@@ -132,8 +132,8 @@ const SolutionsDetailsV2 = () => {
             </div>
 
             <div id="container-4">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"
@@ -173,8 +173,8 @@ const SolutionsDetailsV2 = () => {
             </div>
 
             <div id="container-5">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"
@@ -213,8 +213,8 @@ const SolutionsDetailsV2 = () => {
               </a>
             </div>
             <div id="container-6">
-              <a class="group block h-56" href="/blog">
-                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-white p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
+              <a class="group block h-56">
+                <div class="relative flex h-full items-end rounded-3xl border-4 border-black bg-gray-50 p-8 transition group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:shadow-[8px_8px_0_0_#000]">
                   <div class="lg:group-hover:absolute lg:group-hover:opacity-0 ">
                     <span
                       aria-hidden="true"

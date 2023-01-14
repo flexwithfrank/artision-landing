@@ -2,6 +2,7 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { motion } from "framer-motion";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -185,7 +186,12 @@ export default function AboutUsVideo() {
 
           <div className="mx-auto mt-16 max-w-7xl px-4 sm:mt-24 sm:px-6">
             <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+              
+              <motion.h1
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ duration: 0.5 }} 
+              className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block foa-light">
                   Fit‒for‒Purpose resource
                 </span>
@@ -193,14 +199,18 @@ export default function AboutUsVideo() {
                   {" "}
                   security and resilient platform.
                 </span>
-              </h1>
-              <p className="mx-auto mt-3 max-w-md text-xs text-gray-500 sm:text-sm md:mt-5 md:max-w-3xl md:text-xl">
+              </motion.h1>
+              <motion.div 
+              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50 }}
+              transition={{ duration: 0.75 }}
+              className="mx-auto mt-3 max-w-md text-md text-gray-500 sm:text-sm md:mt-5 md:max-w-3xl md:text-xl foa-book">
                 We are a Technology ＆ Service Company that has a
                 Fit‒for‒Purpose Resource Security and Resilient Platform that
                 integrates breakthrough technologies to meet government,
                 commercial industrial, and municipal customers power,water,data
                 i.e. communications needs.
-              </p>
+              </motion.div>
             </div>
           </div>
         </div>

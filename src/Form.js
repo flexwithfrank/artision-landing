@@ -3,7 +3,7 @@ import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 export default function Form() {
   return (
     <>
-    <header className="relative bg-blue-800 pb-24 sm:pb-32 mt-6">
+    <header className="relative pb-24 sm:pb-32 mt-6 bg-gray-50">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
