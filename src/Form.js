@@ -81,14 +81,14 @@ export default function Form() {
         </div>
         <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
           <div className="mx-auto max-w-lg lg:max-w-none">
-            <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
+            <form action="https://studio3fit.us11.list-manage.com/subscribe/post?u=c2d7cac43ff9dc962a9b9e8d9&amp;id=9481f12b1a&amp;f_id=00499de0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="grid grid-cols-1 gap-y-6">
               <div>
                 <label htmlFor="full-name" className="sr-only">
                   Full name
                 </label>
                 <input
                   type="text"
-                  name="full-name"
+                  name="FNAME"
                   id="full-name"
                   autoComplete="name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -101,7 +101,7 @@ export default function Form() {
                 </label>
                 <input
                   id="email"
-                  name="email"
+                  name="EMAIL"
                   type="email"
                   autoComplete="email"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -114,7 +114,7 @@ export default function Form() {
                 </label>
                 <input
                   type="text"
-                  name="phone"
+                  name="PHONE"
                   id="phone"
                   autoComplete="tel"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -127,7 +127,7 @@ export default function Form() {
                 </label>
                 <textarea
                   id="message"
-                  name="message"
+                  name="MESSAGE"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                   placeholder="Message"
