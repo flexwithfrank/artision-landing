@@ -3,9 +3,11 @@ import ReactPlayer from "react-player";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import { useRef } from "react";
 
 const HeroVideo = () => {
-  let videoRef = React.createRef();
+
+  const videoRef = useRef(null);
 
   useEffect(() => {
     if (videoRef.current) {
