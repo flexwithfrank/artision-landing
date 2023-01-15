@@ -15,7 +15,7 @@ const WhoWeAreV2 = () => {
               </span>
 
               <div class="relative bg-black bg-opacity-20 p-8 pt-60 text-white text-left">
-                <h3 class="text-xl lg:text-2xl font-bold">Data Security</h3>
+                <h3 class="text-xl lg:text-2xl font-bold">Security</h3>
                 <p class="text-sm max-w-xs">
                   Hardened security and resilient platforms for Energy, Water,
                   and Data
@@ -54,7 +54,7 @@ const WhoWeAreV2 = () => {
               <div class="relative bg-black bg-opacity-20 p-8 pt-60 text-white text-left">
                 <h3 class="text-xl lg:text-2xl font-bold">Technology</h3>
                 <p class="text-sm max-w-xs">
-                  Superior combination of own intellectual property and
+                  Superior combination of intellectual property and
                   exclusive licenses
                 </p>
               </div>
@@ -87,10 +87,10 @@ const WhoWeAreV2 = () => {
               </span>
 
               <div class="relative bg-black bg-opacity-20 p-8 pt-60 text-white text-left">
-                <h3 class="text-xl lg:text-2xl font-bold">Government Focus</h3>
+                <h3 class="text-xl lg:text-2xl font-bold">Government</h3>
                 <p class="text-sm max-w-xs">
-                  Federal, State ＆ Municipal Government, Commercial
-                  and Industrial resilient needs
+                  Federal, State & Municipal Government, Commercial
+                  and Industrial
                 </p>
               </div>
               <span class="bg-white py-1 px-1 absolute right-6 bottom-10 rounded-full">

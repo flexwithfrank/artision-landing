@@ -6,9 +6,10 @@ const navigation = {
     { name: "Services", to: "/about" },
   ],
   support: [
-    { name: "Data Security", to: "/solutions" },
-    { name: "Technology", to: "/solutions" },
     { name: "Government", to: "/solutions" },
+    { name: "Commercial", to: "/solutions" },
+    { name: "Secure Hardware", to: "/solutions" },
+    { name: "Software Solutions", to: "/solutions" },
   ],
   company: [
     { name: "About", to: "/about" },

@@ -12,14 +12,14 @@ const HeadlineTextSection = () => {
               </span>
             </div>
             <h2 class="mb-4 text-3xl lg:text-6xl tracking-tight text-white dark:text-white foa-light">
-              Artesion is the leader in <br />
+              Artesion is a leader in <br />
               <span class="foa-book">Platform Resilient Systems.</span>
             </h2>
 
             <p class="mb-4 font-light foa-book text-white">
-              Artesion’s mission is to be a leader in resilient platform systems
-              and infrastructure projects to empower our customers with
-              long‒term security of supply of resource solutions.
+              Artesion's mission is to become the leader in resilient platform systems
+              and infrastructure. We seek to empower our customers with
+              long-term security of supply of resource solutions.
             </p>
 
             <button

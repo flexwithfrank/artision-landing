@@ -1,14 +1,29 @@
+import React from "react";
 
 const people = [
   {
     name: "Karen Fleckner",
     role: "President ＆ CEO",
     description:
-      "Ms. Fleckner has 25 years of experience in the cleantech and sustainability sector.  She has successfully led various company programs that provide services around system integration for renewable micro-grid solutions utilizing Distributed Energy Resources (DER).  She has led commercialization efforts in fuel cells, fuel processing and desulphurization, waste-to-energy, gas-to-liquid biofuels, renewable systems, hydrogen infrastructure, and water purification. She has a BSC in Chemical Engineering. ",
+      "Ms. Fleckner has 25 years of experience in the Clean Tech and sustainability sector.  She has successfully led various company programs that provide services around system integration for renewable micro-grid solutions utilizing Distributed Energy Resources (DER).  She has led commercialization efforts in fuel cells, fuel processing and desulphurization, waste-to-energy, gas-to-liquid biofuels, renewable systems, hydrogen infrastructure, and water purification. She has a BSC in Chemical Engineering. ",
     imageUrl:
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "karenCollapse",
+    href: "#karenCollapse",
+  },
+  {
+    name: "Michael Alexander",
+    role: "Chief Technology Officer",
+    description:
+      "Technology, Development, Deployment & Operations and is the CTO of Artesion, Inc. He has worked globally across telecom carriers on new emerging and differentiating technologies. Mike aligns new technology & solutions with a business strategy to enable clients’ emerging businesses, helping them bring innovative technologies to market. He has worked extensively with business partners in many areas, 5G networking, cloud, blockchain, IoT, LORA networks, Video, M2M and service delivery platforms solutions. Mike was the IBM Distinguished Engineer and CTO/Chief Architect for the Global Telco Industry, bringing the IBM portfolio and views to clients on industry topics, issues, and business models. He ran the combined IBM & Red Hat 5G Lab for the Industry in development and enabling demonstration of IBM capabilities in 5G networking solutions deployment and operations.",
+    imageUrl:
+      "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    id: "mikeCollapse",
+    href: "#mikeCollapse",
   },
   {
     name: "Alexander Ferguson",
@@ -20,51 +35,56 @@ const people = [
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "alexCollapse",
+    href: "#alexCollapse",
   },
   {
-    name: "Joseph Breit, Ph.D.",
-    role: "Director of Power Systems",
+    name: "The Honorable Alex Beehler",
+    role: "Advisor",
     description:
-      "Mr. Breit's experience spans over 35+ in power systems engineering, as a senior-level architect in both industrial and aircraft systems. Worked extensively on commercial and US DoD projects and has worked with academia, research firms, government agencies, and various companies on the development of power systems.  ",
-    descriptionTwo: "—",
-    descriptionThree: "—",
+      "Mr. Beehler has served as the Senate-confirmed Assistant Secretary of the Army for Installations, Energy, and Environment, as well as the Acting Deputy Under Secretary of Defense for Installations and Environment and the Assistant Deputy Under Secretary for Environment, Safety, and Occupational Health. Mr. Beehler was the first DoD Chief Sustainability Officer, responsible for implementing the President’s 2007 Executive Order 13423 on Energy, Environment, and Transportation. Mr. Beehler also served as a senior trial attorney in the Department of Justice, Environment and Natural Resources Division, Environmental Enforcement Section, and as a counsel on the Senate Judiciary Committee. Mr. Beehler earned a J.D./LL.B., from University of Virginia School of Law and A.B., Public and International Affairs, from Princeton University.",
     imageUrl:
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "johnCollapse",
+    href: "#johnCollapse",
   },
   {
-    name: "John Cowan",
-    role: "Director of Water Systems",
+    name: "LTG Joseph Martz",
+    role: "Advisor",
     description:
-      "Mr. Cowan brings over 40 years of experience in natural resources, water, and wastewater technology, and environmental policy both in North America and internationally, as VP for Parsons and  Sr. Scientist at Dow. He has led efforts to develop major water infrastructure projects across the US and the Middle East. John received his BS in Botany from the University of Washington and completed graduate work in Plant Pathology at the University of Idaho; he holds a Master’s degree in Transformational Leadership.",
-    descriptionTwo: "",
+      "Lieutenant General (ret) Joe Martz departed active service in 2014 as the only General Officer in a generation to serve at the executive level in the Requirements, Programming, and Budgeting processes. Coupling these executive-level skills with his deep experience in training development and support at the U.S. Army’s National Training Center and U.S. Army Central’s Udari Training Range (Kuwait).  Since July 2016, LTG (ret) Martz has served as the Senior Observer / After Action Review Facilitator for the two annual ROK-US Combined Forces Command’s theater level exercises in the Republic of Korea. He also serves on the Advisory Board for American Corporate Partners which supports transitioning Soldiers.",
     imageUrl:
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "joeCollapse",
+    href: "#joeCollapse",
   },
   {
-    name: "Hans Ewoldsen, P.E. Ph.D.",
-    role: "Sr. Engineer",
+    name: "US Army (Ret.) Jon Hunter",
+    role: "Advisor",
     description:
-      "Mr. Ewoldsen is an Environmental Engineer & Geological Engineer registered in the state of California, with expertise in water and wastewater engineering, project management, seismic parameters, with domestic and international water resource and supply management.  He has over 30 years of in-depth responsibility for leading, marketing, and managing consulting operations and execution of major projects and programs.  Mr. Ewoldsen's knowledge spans governmental, energy, environmental, and industrial sectors. ",
-    descriptionTwo: "",
+      "Jon  was served six years as the deputy to the garrison commander at Fort Campbell. Jon holds a Master’s Degree from the U.S. Army Command and General Staff College’s School of Advanced Military Studies, a Master’s Degree from the U.S. Army War College, and is a graduate of the War College’s Advanced Strategic Arts Program. He is also a contributing author to “National Security Challenges for the 21st Century” published by Strategic Studies Institute in 2004.",
     imageUrl:
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "hunterCollapse",
+    href: "#hunterCollapse",
   },
   {
     name: "Patrick Howard",
     role: "Director of Finance",
     description:
       "Mr. Howard's career in finance has spanned nearly 25 years, with a track record to the firm including well over a billion dollars of debt and equity financing.  He has worked in acquisitions and development, where he specialized in affordable housing structured financing.  Mr. Howard worked in investment banking focused on project financing for renewable energy and clean energy sources, as well as corporate financing via mergers and acquisitions.",
-    descriptionTwo: "—",
     imageUrl:
       "https://ik.imagekit.io/dy6awnd3c/profile-placeholder.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1673406149698",
     twitterUrl: "#",
     linkedinUrl: "#",
+    id: "patrickCollapse",
+    href: "#patrickCollapse",
   },
 ];
 
@@ -83,6 +103,7 @@ export default function Team() {
               long‒term security supply of resource solutions.
             </p>
           </div>
+
           <ul
             role="list"
             className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
@@ -95,7 +116,7 @@ export default function Team() {
                       <img
                         alt="Role"
                         src={person.imageUrl}
-                        class="rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 shadow-lg"
+                        class="rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity shadow-lg bg-black"
                       />
 
                       <div class="relative p-8">
@@ -103,44 +124,46 @@ export default function Team() {
                           {person.name}
                         </p>
 
-                        <div class="mt-20">
-                          <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
-                            <p class="text-sm text-white">
-                              {person.description}
-                            </p>
-                            <p class="text-sm text-transparent">
-                              {person.descriptionTwo}
-                            </p>
-                            <p class="text-sm text-transparent">
-                              {person.descriptionThree}
-                            </p>
-                            <p class="text-sm text-transparent">
-                              {person.descriptionThree}
-                            </p>
-                            <p class="text-sm text-transparent">
-                              {person.descriptionThree}
-                            </p>
+                        <div class="mt-80">
+                          <div class="translate-y-8 transform opacity-100 transition-all">
+                            <p class="text-sm text-white">&nbsp;</p>
                           </div>
                         </div>
                       </div>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="white"
-                        className="w-6 h-6 absolute bottom-0 left-0 m-2"
+
+                      <a
+                        data-bs-toggle="collapse"
+                        href={person.href}
+                        role="button"
+                        aria-expanded="false"
+                        aria-controls="collapseExample"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
-                        />
-                      </svg>
+                        <span className="absolute bottom-0 left-0 m-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="2"
+                            stroke="currentColor"
+                            class="w-7 h-7 text-white"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"
+                            />
+                          </svg>
+                        </span>
+                      </a>
                     </div>
                   </div>
 
                   <div className="space-y-2">
+                    <div class="collapse" id={person.id}>
+                      <div class="block p-6 rounded-lg bg-transparent foa-book">
+                        {person.description}
+                      </div>
+                    </div>
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <p className="text-blue-800">{person.role}</p>
                     </div>

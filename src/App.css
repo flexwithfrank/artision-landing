@@ -25,24 +25,24 @@
 
 @font-face {
   font-family: "foa";
-  src: local("foa"), url("../public/fonts/Fontspring-DEMO-aktifoa-extrabold.otf") format("opentype"),
-    url("../public/fonts/fontspring-demo-aktifoa-extrabold-webfont.woff") format("woff"),
-    url("../public/fonts/fontspring-demo-aktifoa-extrabold-webfont.woff2") format("woff2");
+  src: local("foa"), url("../public/fonts/Aktifo-B-ExtraBold.ttf") format("truetype"),
+    url("../public/fonts/Aktifo-B-ExtraBold.woff") format("woff"),
+    url("../public/fonts/Aktifo-B-ExtraBold.woff2") format("woff2");
   font-weight: normal;
 }
 @font-face {
   font-family: "foa-book";
-  src: local("foa-book"), url("../public/fonts/Fontspring-DEMO-aktifoa-book.otf") format("opentype"),
-    url("../public/fonts/fontspring-demo-aktifoa-book-webfont.woff") format("woff"),
-    url("../public/fonts/fontspring-demo-aktifoa-book-webfont.woff2") format("woff2");
+  src: local("foa-book"), url("../public/fonts/Aktifo-A-Medium.ttf") format("truetype"),
+    url("../public/fonts/Aktifo-A-Medium.woff") format("woff"),
+    url("../public/fonts/Aktifo-A-Medium.woff2") format("woff2");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "foa-light";
-  src: local("foa-light"), url("../public/fonts/Fontspring-DEMO-aktifoa-light.otf") format("opentype"),
-    url("../public/fonts/fontspring-demo-aktifoa-light-webfont.woff") format("woff"),
-    url("../public/fonts/fontspring-demo-aktifoa-light-webfont.woff2") format("woff2");
+  src: local("foa-light"), url("../public/fonts/Aktifo-A-Light.ttf") format("truetype"),
+    url("../public/fonts/Aktifo-A-Light.woff") format("woff"),
+    url("../public/fonts/Aktifo-A-Light.woff2") format("woff2");
   font-weight: normal;
 }
 

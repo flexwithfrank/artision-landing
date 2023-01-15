@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import About from "./About";
 import TeamMembers from "./TeamMembers";
 import Solutions from "./Solutions";
+import 'tw-elements';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

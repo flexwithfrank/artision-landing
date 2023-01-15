@@ -205,11 +205,11 @@ export default function AboutUsVideo() {
               initial={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.75 }}
               className="mx-auto mt-3 max-w-md text-md text-gray-500 sm:text-sm md:mt-5 md:max-w-3xl md:text-xl foa-book">
-                We are a Technology ＆ Service Company that has a
-                Fit‒for‒Purpose Resource Security and Resilient Platform that
+                We are a Technology & Service Company that has a
+                Fit-for-Purpose Resource Security and Resilient Platform that
                 integrates breakthrough technologies to meet government,
-                commercial industrial, and municipal customers power,water,data
-                i.e. communications needs.
+                commercial industrial, and municipal customers power, water, data.
+               
               </motion.div>
             </div>
           </div>
@@ -239,24 +239,18 @@ export default function AboutUsVideo() {
               <div class="mx-auto max-w-7xl py-16 px-4 sm:py-12 sm:px-6 lg:px-8">
                 <div class="lg:grid lg:grid-cols-2 lg:gap-8">
                   <h2 class="mx-auto max-w-md text-center text-2xl lg:text-4xl font-bold tracking-tight text-white lg:max-w-xl lg:text-left foa-light">
-                    The worlds most innovative governments <span className="foa-book tapered2">trust Artesion.</span>
+                    The worlds governments and organizations <span className="foa-book tapered2">trust Artesion.</span>
                   </h2>
                   <div class="mt-8 flow-root self-center lg:mt-0">
                     <div class="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
                       <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                         <img
-                          class="h-12"
-                          src="https://ik.imagekit.io/dy6awnd3c/Untitled_design__3_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672720353755"
+                          class="h-20"
+                          src="https://ik.imagekit.io/dy6awnd3c/Seal_of_the_United_States_Department_of_Energy.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1673756644240"
                           alt="Workcation"
                         />
                       </div>
-                      <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-1">
-                        <img
-                          class="h-12"
-                          src="https://ik.imagekit.io/dy6awnd3c/2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672720353840"
-                          alt="Tuple"
-                        />
-                      </div>
+                     
                       <div class="mt-4 ml-8 flex flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                         <img
                           class="h-12"
