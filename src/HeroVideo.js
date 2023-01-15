@@ -23,7 +23,7 @@ const HeroVideo = () => {
             ref={videoRef}
             loop={true}
             autoPlay={true}
-            controls={true}
+            controls={false}
             muted={true}
           >
             <source
