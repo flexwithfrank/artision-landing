@@ -16,12 +16,8 @@ const Solutions = () => {
     <SolutionsHero />
     <SolutionsDetails />
     <SolutionsDetailsV2 />
-    <Stats />
-    <SolutionsDetailV3 />
-    <PartnersLogoV2 />
     <CTAV4 />
     <Globe />
-   
     <FooterV2 />
     </>
   )

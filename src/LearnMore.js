@@ -27,11 +27,11 @@ export default function LearnMore() {
                   Resource Security Platform
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Artesion, Inc is a Technology & Service Company that has
-                  a Fit-for-Purpose Resource Security and Resilient Platform
-                  that integrates breakthrough technologies to meet government,
-                  commercial industrial, and municipal customer's
-                  power, water, data.
+                  Artesion, Inc is a Technology & Service Company that has a
+                  Fit-for-Purpose Resource Security and Resilient Platform that
+                  integrates breakthrough technologies to meet government,
+                  commercial industrial, and municipal customer's power, water,
+                  data.
                 </p>
                 <div className="mt-6">
                   <Link
@@ -47,22 +47,20 @@ export default function LearnMore() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
-                    diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                    venenatis in euismod ut.&rdquo;
+                    &nbsp;
                   </p>
                 </div>
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0">
+                    {/* <div className="flex-shrink-0">
                       <img
                         className="h-6 w-6 rounded-full"
                         src="https://ik.imagekit.io/dy6awnd3c/Karen_Fleckner_Photo_-_Karen_Fleckner_pn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1672708581603"
                         alt=""
                       />
-                    </div>
+                    </div> */}
                     <div className="text-base font-medium text-gray-700 foa-light">
-                      Karen Fleckner, Chief Executive Officer
+                    &nbsp;
                     </div>
                   </div>
                 </footer>
@@ -98,17 +96,17 @@ export default function LearnMore() {
                   Risk Analysis Solution
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Artesions platform integrates hardware and software capabilities
-                  for security of supply of resources and on-demand availability
-                  and quality of valuable resources; such as water, power, and
-                  data. Our solutions consider a risk analysis
+                  Artesions platform integrates hardware and software
+                  capabilities for security of supply of resources and on-demand
+                  availability and quality of valuable resources; such as water,
+                  power, and data. Our solutions consider a risk analysis
                   integrated approach that thinks through internal and external
                   threat scenarios, coupling the probability of events and
                   cascading failures with the capital and recurring recovery
                   cost; we then provide a solution for mitigation.
                 </p>
                 <div className="mt-6">
-                <Link
+                  <Link
                     to="/solutions"
                     className="inline-flex rounded-full border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-blue-600 foa-book"
                   >

@@ -52,18 +52,18 @@ export default function SolutionsHero() {
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
-              <a
-                href="#"
+              <Link
+                to="about"
                 className="text-base font-medium text-white hover:text-gray-300 foa"
               >
                 Learn More
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="contact"
                 className="inline-flex items-center rounded-full border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700 foa-book"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
           </nav>
         </div>

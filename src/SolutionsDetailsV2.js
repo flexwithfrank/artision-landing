@@ -123,8 +123,8 @@ const SolutionsDetailsV2 = () => {
 
                     <p class="mt-4 text-lg font-medium leading-relaxed">
                       Automate and integrate building information to DoD
-                      modernization standards for better, faster, and safer
-                      building operations and maintenance.
+                      modernization and other standards for better, faster, and
+                      safer building operations and maintenance.
                     </p>
                   </div>
                 </div>
@@ -156,15 +156,15 @@ const SolutionsDetailsV2 = () => {
                       </svg>
                     </span>
                     <p class="mt-4 text-xl font-bold sm:text-3xl">
-                      Reliable ＆ Scalable
+                      Reliable & Scalable
                     </p>
                   </div>
 
                   <div class="absolute opacity-0 lg:group-hover:relative lg:group-hover:opacity-100 ">
-                    <h3 class="text-2xl font-bold">Reliable ＆ Scalable </h3>
+                    <h3 class="text-2xl font-bold">Reliable & Scalable </h3>
 
                     <p class="mt-4 text-lg font-medium leading-relaxed">
-                      Brings Reliability and scalability of the cloud to the
+                      Brings reliability and scalability of the cloud to the
                       edge.
                     </p>
                   </div>
@@ -205,8 +205,8 @@ const SolutionsDetailsV2 = () => {
                     <h3 class="text-2xl font-bold">Machine Learning </h3>
 
                     <p class="mt-4 text-lg font-medium leading-relaxed">
-                      Brings Reliability and scalability of the cloud to the
-                      edge.
+                      Utilizes analytics and machine learning to drive smart
+                      outcomes
                     </p>
                   </div>
                 </div>
@@ -237,16 +237,15 @@ const SolutionsDetailsV2 = () => {
                       </svg>
                     </span>
                     <p class="mt-4 text-xl font-bold sm:text-3xl">
-                      Analytics
+                      Graph Analysis
                     </p>
                   </div>
 
                   <div class="absolute opacity-0 lg:group-hover:relative lg:group-hover:opacity-100 ">
-                    <h3 class="text-2xl font-bold">Automated Mission Assurance </h3>
+                    <h3 class="text-2xl font-bold">Graph Analysis</h3>
 
                     <p class="mt-4 text-lg font-medium leading-relaxed">
-                      Brings Reliability and scalability of the cloud to the
-                      edge.
+                      Provides graph trace analysis to discover unseen relationships
                     </p>
                   </div>
                 </div>

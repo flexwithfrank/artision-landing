@@ -9,7 +9,6 @@ const Contact = () => {
     <div>
     <NavBarLightV2 />
     <Form />
-    <Locations />
     <FooterV2 />
     </div>
   )
