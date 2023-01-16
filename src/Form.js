@@ -81,7 +81,7 @@ export default function Form() {
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="mx-auto max-w-lg lg:max-w-none">
               <form
-                action="https://studio3fit.us11.list-manage.com/subscribe/post?u=c2d7cac43ff9dc962a9b9e8d9&amp;id=9481f12b1a&amp;f_id=00499de0f0"
+                action=""
                 method="post"
                 id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form"
