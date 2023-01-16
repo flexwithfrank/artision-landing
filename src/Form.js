@@ -81,7 +81,7 @@ export default function Form() {
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="mx-auto max-w-lg lg:max-w-none">
               <form
-                action=""
+                action="https://artesion.us21.list-manage.com/subscribe/post?u=463fd05d2e39c008b7fbf4ae7&amp;id=a44a612b6c&amp;f_id=0081d0e1f0"
                 method="post"
                 id="mc-embedded-subscribe-form"
                 name="mc-embedded-subscribe-form"
@@ -89,11 +89,11 @@ export default function Form() {
               >
                 <div>
                   <label htmlFor="full-name" className="sr-only">
-                    Full name
+                    Name
                   </label>
                   <input
                     type="text"
-                    name="FNAME"
+                    name="NAME"
                     id="full-name"
                     autoComplete="name"
                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -124,6 +124,19 @@ export default function Form() {
                     autoComplete="tel"
                     className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                     placeholder="Phone"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="phone" className="sr-only">
+                    Company
+                  </label>
+                  <input
+                    type="text"
+                    name="PHONE"
+                    id="phone"
+                    autoComplete="tel"
+                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                    placeholder="Company"
                   />
                 </div>
                 <div>
