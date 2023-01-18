@@ -63,7 +63,7 @@ const people = [
     href: "#joeCollapse",
   },
   {
-    name: "US Army (Ret.) Jon Hunter",
+    name: "(Ret.) Jon Hunter",
     role: "Advisor",
     description:
       "Jon  was served six years as the deputy to the garrison commander at Fort Campbell. Jon holds a Master’s Degree from the U.S. Army Command and General Staff College’s School of Advanced Military Studies, a Master’s Degree from the U.S. Army War College, and is a graduate of the War College’s Advanced Strategic Arts Program. He is also a contributing author to “National Security Challenges for the 21st Century” published by Strategic Studies Institute in 2004.",
