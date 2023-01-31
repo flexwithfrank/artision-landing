@@ -105,7 +105,7 @@ export default function FooterV2() {
               and infrastructure projects to empower our customers with
               long‒term security of supply of resource solutions.
             </p>
-            <div className="flex space-x-6">
+            {/* <div className="flex space-x-6">
               {navigation.social.map((item) => (
                 <a
                   key={item.name}
@@ -116,7 +116,7 @@ export default function FooterV2() {
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
           <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
