@@ -14,8 +14,8 @@ const navigation = {
   company: [
     { name: "About", to: "/about" },
     { name: "Mission", to: "/about" },
-    { name: "Team", to: "/about" },
-    { name: "Partners", to: "/about" },
+    { name: "Team", to: "/teammembers" },
+    // { name: "Partners", to: "/about" },
   ],
   legal: [
     { name: "Privacy", to: "#" },
