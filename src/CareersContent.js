@@ -1,14 +1,126 @@
 import React from "react";
 
-const listing = [
-  {
-    area: "Engineering",
-    role: "Senior Full Stack Backend Engineer",
-    type: "Full-time",
-    location: "Seattle, WA",
-    workType: "Remote",
-    cta: "Apply Now",
-  },
+const companyBlurb = "Artesion is a software product and services company operating at the Edge. Artesion’s platform is bringing the scalability and reliability of the cloud to the edge providing AI, ML, analytics, and compute to industries such as the Department of Defense, healthcare, and agriculture."
+const benefits = {
+  label: "Benefits:",
+  items: [
+      "Health insurance",
+      "Dental and vision insurance",
+      "Flexible schedule",
+      "Paid time off",
+      "Holidays",
+      "Parental leave"
+  ]
+}
+const contact = {
+    label: "Apply",
+    link: "mailto:careers@artesion.com",
+    email: "careers@artesion.com"
+}
+
+const renderParagraphs = (list) => {
+    let first = true
+    const paragraphs = []
+    list.map(item => {
+        if (!first) paragraphs.push(<div>&nbsp;</div>)
+        first = false
+        paragraphs.push(<div>{item}</div>)
+    })
+    return (
+        <div>
+            { paragraphs }
+        </div>
+    )
+}
+
+const listings = [
+    {
+        jobTitle: "Graph Analytics Software Engineer",
+        jobType: "Full-Time, Remote",
+        description: {
+            paragraphs: [
+                companyBlurb,
+                "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skill set as you contribute to the core platform and client projects. We are looking for an experienced software engineer with a background in graph databases including data modeling and using graph algorithms to solve complex problems."
+            ]
+        },
+        sections: [
+            {
+                label: "Basic Qualifications:",
+                items: [
+                    "Bachelor’s degree in computer science, data science, engineering or related field",
+                    "Strong understanding of graph database concepts and experience with technologies such as OrientDB, Neo4j, TigerGraph, JanusGraph, etc.",
+                    "Demonstrated ability to perform data modeling and apply graph algorithms to solve problems",
+                    "Well versed in linux flavored operating systems as a development platform and Git for source control",
+                    "Proficient developer in a modern language such as Kotlin, Java, Python, c#, R, Go, etc.",
+                    "Familiarity with containerization tools such as, Docker, Podman, k8s, Rancher",
+                    "Experience with messaging or event platforms like, Kafka, Pulsar, MQTT, is a plus",
+                    "Strong problem-solving and analytical skills",
+                    "Excellent communication and collaboration abilities",
+                    "US Citizen"
+                ]
+            },
+            {
+                label: "Additional Desired Skills",
+                items: [
+                    "Familiarity with machine learning techniques for graph analytics",
+                    "Background with AI, tensors, LLM, etc. and AI training techniques",
+                    "Experience with Spark & GraphX",
+                    "MongoDB, Redis, RocksDB, etc",
+                    "Understanding of the CAP theorem, why it’s important, and how to apply it",
+                    "Security Clearance (or ability to obtain clearance)"
+                ]
+            },
+            benefits
+        ]
+    },
+    {
+    jobTitle: "Java Software Engineer",
+    jobType: "Full-Time, Remote",
+    description: {
+      paragraphs: [
+          companyBlurb,
+          "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skillset as you contribute to the core platform and client projects. We are looking for an experienced Kotlin/Java Software Engineer with a passion for building large-scale edge-based solutions. "
+      ]
+    },
+    sections: [
+      {
+        label: "General:",
+        items: [
+            "4 years of experience in the JVM ecosystem",
+            "Comfortable working within Spring Boot",
+            "Well versed using linux flavored operating systems as a development platform",
+            "Domain Driven Design and working in scrum teams",
+            "Must know Git, Git branching and tagging and CI/CD concepts",
+            "US Citizen"
+        ]
+      },
+      {
+        label: "Languages:",
+        items: [
+            "Java (Must)",
+            "Kotlin (Preferred)",
+            "TypeScript, Javascript, Python, Go a plus"
+        ]
+      },
+      {
+        label: "Platforms:",
+        items: [
+            "Modern clustered NoSQL databases such as, MongoDB, Redis, RocksDB, etc.",
+            "Messaging or Event based tools such as Kafka, Pulsar, mqtt desired",
+            "Kubernetes, Rancher, Docker, Podman, familiarity desired"
+        ]
+      },
+      {
+        label: "Pluses:",
+        items: [
+            "Event driven architecture knowledge",
+            "AI, Analytics or Data science experience",
+            "Graph database experience including data modeling, OrientDB, Neo4j, TigerGraph, etc."
+        ]
+      },
+      benefits
+    ]
+  }
 ];
 
 export default function CareersContent() {
@@ -23,78 +135,62 @@ export default function CareersContent() {
               </h2>
               <p className="text-xl text-gray-500 foa-book">
                 We're seeking talented individuals like you to join our
-                exceptional team.
+                  exceptional team email resume and cover letter to <a href={contact.link}>{contact.email}</a>.
               </p>
-              <h2 className="text-3xl tracking-tight sm:text-4xl text-blue-800 pt-20 opacity-50">
-                No openings at this time.
-              </h2>
+              <h3 className="text-3xl tracking-tight sm:text-4xl text-blue-800 pt-20 opacity-50">
+                Current openings:
+              </h3>
             </div>
             <ul
               role="list"
               className="space-y-12 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-2 sm:space-y-0 lg:grid-cols-1 lg:gap-x-8">
-              {listing.map((list) => (
-                <li key={list.name}>
-                  <div className="space-y-4 rounded-lg hidden">
+              {listings.map((job) => (
+                <li key={job.jobTitle}>
+                  <div className="space-y-4 rounded-lg">
                     <section>
                       <div className="relative flex flex-col justify-center items-center overflow-hidden p-2">
                         <div className="bg-white shadow w-full flex flex-col sm:flex-row gap-3 sm:items-center justify-between px-5 py-4 rounded-md">
                           <div>
-                            <span className="text-blue-800 text-sm foa-book">
-                              {list.area}
+                              <div className="float-right"><button>
+                                  <a href={`${contact.link}?subject=${job.jobTitle.replace(' ', '%20')}`} className="bg-blue-800 text-white font-medium px-7 py-2 rounded-full flex gap-1 items-center foa-book">
+                                      {contact.label}
+                                      <svg
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          className="h-4 w-4"
+                                          fill="none"
+                                          viewBox="0 0 24 24"
+                                          stroke="currentColor"
+                                          strokeWidth="2"
+                                      >
+                                          <path
+                                              strokeLinecap="round"
+                                              strokeLinejoin="round"
+                                              d="M13 7l5 5m0 0l-5 5m5-5H6"
+                                          />
+                                      </svg>
+                                  </a>
+                              </button></div>
+                              <h3 className="mt-px foa">{job.jobTitle}</h3>
+                              <span className="text-blue-800 text-sm foa-book">
+                              {job.jobType}
                             </span>
-                            <h3 className="mt-px foa">{list.role}</h3>
                             <div className="flex items-center gap-3 mt-2">
-                              <span className="bg-blue-100 text-blue-700 rounded-full px-3 py-1 text-sm foa-book">
-                                {list.type}
-                              </span>
-                              <span className="bg-blue-100 text-blue-700 rounded-full px-3 py-1 text-sm foa-book">
-                                {list.workType}
-                              </span>
-                              <span className="text-slate-600 text-sm flex gap-1 items-center foa-book">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="h-4 w-4"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                  strokeWidth="2"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                                  />
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                                  />
-                                </svg>
-                                {list.location}
+                              <span className="bg-blue-100 text-blue-700 px-3 py-1 text-sm foa-book">
+                                  { renderParagraphs(job.description.paragraphs)}
                               </span>
                             </div>
+                              {job.sections.map(section => (
+                                  <div>
+                                      <div>&nbsp;</div>
+                                  <div><span><u>{section.label}</u></span>
+                                      {section.items.map(item => (
+                                          <div className="indent-3 list-inside">- {item}</div>
+                                      ))}
+                                  </div>
+                                  </div>
+                              ))}
                           </div>
-                          <div>
-                            <button>
-                              <a className="bg-blue-800 text-white font-medium px-7 py-2 rounded-full flex gap-1 items-center foa-book">
-                                {list.cta}
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="h-4 w-4"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                  strokeWidth="2"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M13 7l5 5m0 0l-5 5m5-5H6"
-                                  />
-                                </svg>
-                              </a>
-                            </button>
-                          </div>
+                          <div>&nbsp;</div>
                         </div>
                       </div>
                     </section>
