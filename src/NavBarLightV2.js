@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 
 const navigation = [
@@ -12,14 +11,14 @@ const navigation = [
   { name: "Solution", href: "/Solutions" },
   { name: "Contact", href: "/contact" },
   { name: "Team", href: "/teammembers" },
+  { name: "Careers", href: "/Careers" },
 ];
-
 
 const NavBarLightV2 = ({ color }) => {
   return (
     <>
       <Popover as="header" className="relative">
-        <div style={{backgroundColor: color }} className="bg-white pt-6 top-0">
+        <div style={{ backgroundColor: color }} className="bg-white pt-6 top-0">
           <nav
             className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
             aria-label="Global"
@@ -121,8 +120,10 @@ const NavBarLightV2 = ({ color }) => {
                 </div>
                 <div className="mt-6 px-5">
                   <p className="text-center text-base font-medium text-gray-500">
-                    
-                    <Link to="/about" className="text-gray-900 hover:underline foa">
+                    <Link
+                      to="/about"
+                      className="text-gray-900 hover:underline foa"
+                    >
                       Learn More
                     </Link>
                   </p>
@@ -132,10 +133,8 @@ const NavBarLightV2 = ({ color }) => {
           </Popover.Panel>
         </Transition>
       </Popover>
-
-
     </>
-  )
-}
+  );
+};
 
-export default NavBarLightV2
+export default NavBarLightV2;

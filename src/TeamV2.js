@@ -51,7 +51,8 @@ const people = [
     href: "#alexCollapse",
   },
 
-  { title: "Advisory Board",
+  {
+    title: "Advisory Board",
     name: "The Honorable Alex Beehler",
     role: "Advisor",
     description:
@@ -116,9 +117,9 @@ export default function TeamV2() {
                     <div class="relative items-center w-full px-5 py-6 mx-auto md:px-2 lg:px-24 max-w-7xl border-b-2 border-gray-200">
                       <div class="grid w-full grid-cols-1 lg:gap-12 mx-auto lg:grid-cols-2">
                         <div class="p-6">
-                        <div class="mx-auto py-2 text-xl leading-none tracking-tighter text-neutral-600  foa-book absolute top-0 left-0">
+                          <div class="mx-auto py-2 text-xl leading-none tracking-tighter text-neutral-600  foa-book absolute top-0 left-0">
                             {person.title}
-                        </div>
+                          </div>
                           <h1 class="mx-auto mb-4 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl foa">
                             {person.name}
                           </h1>

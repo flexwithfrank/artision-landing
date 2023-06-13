@@ -9,6 +9,7 @@ import About from "./About";
 import TeamMembers from "./TeamMembers";
 import Solutions from "./Solutions";
 import 'tw-elements';
+import Careers from "./Careers";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/teammembers" element={<TeamMembers />} />
         <Route path="/solutions" element={<Solutions />} />
+        <Route path="/Careers" element={<Careers />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
