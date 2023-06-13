@@ -20,6 +20,7 @@ const contact = {
 
 const renderPostings = (show) => {
     if (!show) return
+    const activeListings = listings.filter(job => job.active)
     return (
         <div>
             <h3 className="text-3xl tracking-tight sm:text-4xl text-blue-800 pt-20 opacity-50">
@@ -28,7 +29,7 @@ const renderPostings = (show) => {
             <ul
                 role="list"
                 className="sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-2 sm:space-y-0 lg:grid-cols-1 lg:gap-x-8">
-                {listings.map((job) => (
+                {activeListings.map((job) => (
                     <li key={job.jobTitle}>
                         <div className="space-y-4 rounded-lg">
                             <section>
@@ -103,6 +104,7 @@ const renderParagraphs = (list) => {
 
 const listings = [
     {
+        active: true,
         jobTitle: "Graph Analytics Software Engineer",
         jobType: "Full-Time, Remote",
         description: {
@@ -142,52 +144,53 @@ const listings = [
         ]
     },
     {
-    jobTitle: "Java Software Engineer",
-    jobType: "Full-Time, Remote",
-    description: {
-      paragraphs: [
-          companyBlurb,
-          "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skillset as you contribute to the core platform and client projects. We are looking for an experienced Kotlin/Java Software Engineer with a passion for building large-scale edge-based solutions. "
-      ]
-    },
-    sections: [
-      {
-        label: "General:",
-        items: [
-            "4 years of experience in the JVM ecosystem",
-            "Comfortable working within Spring Boot",
-            "Well versed using linux flavored operating systems as a development platform",
-            "Domain Driven Design and working in scrum teams",
-            "Must know Git, Git branching and tagging and CI/CD concepts",
-            "US Citizen"
+        active: true,
+        jobTitle: "Java Software Engineer",
+        jobType: "Full-Time, Remote",
+        description: {
+          paragraphs: [
+              companyBlurb,
+              "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skillset as you contribute to the core platform and client projects. We are looking for an experienced Kotlin/Java Software Engineer with a passion for building large-scale edge-based solutions. "
+          ]
+        },
+        sections: [
+          {
+            label: "General:",
+            items: [
+                "4 years of experience in the JVM ecosystem",
+                "Comfortable working within Spring Boot",
+                "Well versed using linux flavored operating systems as a development platform",
+                "Domain Driven Design and working in scrum teams",
+                "Must know Git, Git branching and tagging and CI/CD concepts",
+                "US Citizen"
+            ]
+          },
+          {
+            label: "Languages:",
+            items: [
+                "Java (Must)",
+                "Kotlin (Preferred)",
+                "TypeScript, Javascript, Python, Go a plus"
+            ]
+          },
+          {
+            label: "Platforms:",
+            items: [
+                "Modern clustered NoSQL databases such as, MongoDB, Redis, RocksDB, etc.",
+                "Messaging or Event based tools such as Kafka, Pulsar, mqtt desired",
+                "Kubernetes, Rancher, Docker, Podman, familiarity desired"
+            ]
+          },
+          {
+            label: "Pluses:",
+            items: [
+                "Event driven architecture knowledge",
+                "AI, Analytics or Data science experience",
+                "Graph database experience including data modeling, OrientDB, Neo4j, TigerGraph, etc."
+            ]
+          },
+          benefits
         ]
-      },
-      {
-        label: "Languages:",
-        items: [
-            "Java (Must)",
-            "Kotlin (Preferred)",
-            "TypeScript, Javascript, Python, Go a plus"
-        ]
-      },
-      {
-        label: "Platforms:",
-        items: [
-            "Modern clustered NoSQL databases such as, MongoDB, Redis, RocksDB, etc.",
-            "Messaging or Event based tools such as Kafka, Pulsar, mqtt desired",
-            "Kubernetes, Rancher, Docker, Podman, familiarity desired"
-        ]
-      },
-      {
-        label: "Pluses:",
-        items: [
-            "Event driven architecture knowledge",
-            "AI, Analytics or Data science experience",
-            "Graph database experience including data modeling, OrientDB, Neo4j, TigerGraph, etc."
-        ]
-      },
-      benefits
-    ]
   }
 ];
 
