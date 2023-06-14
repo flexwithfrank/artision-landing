@@ -40,8 +40,7 @@ export const jobData = {
                         "Familiarity with containerization tools such as, Docker, Podman, k8s, Rancher",
                         "Experience with messaging or event platforms like, Kafka, Pulsar, MQTT, is a plus",
                         "Strong problem-solving and analytical skills",
-                        "Excellent communication and collaboration abilities",
-                        "US Citizen"
+                        "Excellent communication and collaboration abilities"
                     ]
                 },
                 {
@@ -75,8 +74,7 @@ export const jobData = {
                         "Comfortable working within Spring Boot",
                         "Well versed using linux flavored operating systems as a development platform",
                         "Domain Driven Design and working in scrum teams",
-                        "Must know Git, Git branching and tagging and CI/CD concepts",
-                        "US Citizen"
+                        "Must know Git, Git branching and tagging and CI/CD concepts"
                     ]
                 },
                 {
