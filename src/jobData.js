@@ -20,7 +20,7 @@ export const jobData = {
     jobs: [
         {
             id: uuid(),
-            active: true,
+            active: false,
             jobTitle: "Graph Analytics Software Engineer",
             jobType: "Full-Time, Remote",
             description: {
@@ -58,7 +58,7 @@ export const jobData = {
         },
         {
             id: uuid(),
-            active: true,
+            active: false,
             jobTitle: "Java Software Engineer",
             jobType: "Full-Time, Remote",
             description: {
