@@ -20,12 +20,12 @@ export const jobData = {
     jobs: [
         {
             id: uuid(),
-            active: false,
-            jobTitle: "Graph Analytics Software Engineer",
+            active: true,
+            jobTitle: "Data Scientist",
             jobType: "Full-Time, Remote",
             description: {
                 paragraphs: [
-                    "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skill set as you contribute to the core platform and client projects. We are looking for an experienced software engineer with a background in graph databases including data modeling and using graph algorithms to solve complex problems."
+                    "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to apply and grow your skill set while you contribute to the core AI/ML & Analytics platform. We are looking for an experienced data scientist that enjoys the implementation side of data science."
                 ]
             },
             sections: [
@@ -33,12 +33,12 @@ export const jobData = {
                     label: "Basic Qualifications:",
                     items: [
                         "Bachelor’s degree in computer science, data science, engineering or related field",
-                        "Strong understanding of graph database concepts and experience with technologies such as OrientDB, Neo4j, TigerGraph, JanusGraph, etc.",
-                        "Demonstrated ability to perform data modeling and apply graph algorithms to solve problems",
-                        "Well versed in linux flavored operating systems as a development platform and Git for source control",
-                        "Proficient developer in a modern language such as Kotlin, Java, Python, c#, R, Go, etc.",
-                        "Familiarity with containerization tools such as, Docker, Podman, k8s, Rancher",
-                        "Experience with messaging or event platforms like, Kafka, Pulsar, MQTT, is a plus",
+                        "Expertise in advanced analytics, including data aggregation, statistical and predictive modeling, and machine learning",
+                        "Background with AI, tensors, LLM, etc. and AI training techniques",
+                        "Experience with Spark, GraphX, Gremlin, TinkerPop, Pytorch",
+                        "Understanding of graph database concepts and experience with technologies such as OrientDB, Neo4j, TigerGraph, JanusGraph, etc.",
+                        "Comfortable with linux/mac as a development platform and Git for source control",
+                        "Proficient with languages such as Python, R, Go, Kotlin/Java, etc.",
                         "Strong problem-solving and analytical skills",
                         "Excellent communication and collaboration abilities"
                     ]
@@ -46,11 +46,9 @@ export const jobData = {
                 {
                     label: "Additional Desired Skills",
                     items: [
-                        "Familiarity with machine learning techniques for graph analytics",
-                        "Background with AI, tensors, LLM, etc. and AI training techniques",
-                        "Experience with Spark & GraphX",
+                        "Hands on experience with anomaly detection techniques and algorithms",
+                        "Familiarity with containerization tools such as, Docker, Podman, k8s, Rancher",
                         "MongoDB, Redis, RocksDB, etc",
-                        "Understanding of the CAP theorem, why it’s important, and how to apply it",
                         "Security Clearance (or ability to obtain clearance)"
                     ]
                 }
@@ -58,23 +56,37 @@ export const jobData = {
         },
         {
             id: uuid(),
-            active: false,
-            jobTitle: "Java Software Engineer",
+            active: true,
+            jobTitle: "Sr Software Engineer",
             jobType: "Full-Time, Remote",
             description: {
                 paragraphs: [
-                    "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to grow your skillset as you contribute to the core platform and client projects. We are looking for an experienced Kotlin/Java Software Engineer with a passion for building large-scale edge-based solutions. "
+                    "Artesion is project funded and you’d be getting in on the ground floor with an opportunity to apply and grow your skill set while contributing to the core platform and client projects. We are looking for an experienced Kotlin/Java Software Engineer with a passion for building large-scale edge-based distributed solutions. "
                 ]
             },
             sections: [
                 {
-                    label: "General:",
+                    label: "Basic Qualifications:",
                     items: [
-                        "4 years of experience in the JVM ecosystem",
+                        "Bachelor’s degree in computer science, engineering or related field",
+                        "5+ years of experience in the JVM ecosystem, Kotlin preferred",
                         "Comfortable working within Spring Boot",
-                        "Well versed using linux flavored operating systems as a development platform",
-                        "Domain Driven Design and working in scrum teams",
-                        "Must know Git, Git branching and tagging and CI/CD concepts"
+                        "Must have experience with NoSQL databases such as MongoDB, Redis, RocksDB, etc.",
+                        "Experience with Event Sourcing and message based application development (NATS, Kafka, Pulsar, etc.)",
+                        "Understanding of containerization and tools like Docker, Rancher, Kubernetes",
+                        "Able to use linux flavored operating systems as a development platform",
+                        "Strong problem-solving and analytical skills",
+                        "Excellent communication and collaboration abilities",
+                        "Must know Git, Git branching and tagging and CI/CD concepts",
+                    ]
+                },
+                {
+                    label: "Additional Desired Skills",
+                    items: [
+                        "Understanding of the CAP theorem, why it’s important, and how to apply it",
+                        "Devops crossover work (CI pipelines, SAST, DAST)",
+                        "Experience with Domain Driven Design and knowledgeable with Twelve-Factor App principles",
+                        "Security Clearance (or ability to obtain clearance)"
                     ]
                 },
                 {
@@ -96,7 +108,6 @@ export const jobData = {
                 {
                     label: "Pluses:",
                     items: [
-                        "Event driven architecture knowledge",
                         "AI, Analytics or Data science experience",
                         "Graph database experience including data modeling, OrientDB, Neo4j, TigerGraph, etc."
                     ]
