@@ -4,6 +4,8 @@ import NavBarDarkV2 from "../NavBarDarkV2";
 import Clients from "./clients";
 import Description from "./description";
 import SectionA from "./sectionA";
+import SectionB from "./sectionB";
+import Process from "./process";
 export default function Services() {
   return (
     <div class="min-h-full bg-gray-800">
@@ -12,6 +14,8 @@ export default function Services() {
       <Clients />
       <Description />
       <SectionA />
+      <SectionB />
+      <Process />
     </div>
   );
 }
