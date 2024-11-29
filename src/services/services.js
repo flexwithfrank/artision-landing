@@ -3,6 +3,7 @@ import Headline from "./headline";
 import NavBarDarkV2 from "../NavBarDarkV2";
 import Clients from "./clients";
 import Description from "./description";
+import SectionA from "./sectionA";
 export default function Services() {
   return (
     <div class="min-h-full bg-gray-800">
@@ -10,6 +11,7 @@ export default function Services() {
       <Headline />
       <Clients />
       <Description />
+      <SectionA />
     </div>
   );
 }
