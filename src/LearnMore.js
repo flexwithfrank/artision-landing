@@ -46,9 +46,7 @@ export default function LearnMore() {
             <div className="mt-8 border-t border-gray-200 pt-6">
               <blockquote>
                 <div>
-                  <p className="text-base text-gray-500">
-                    &nbsp;
-                  </p>
+                  <p className="text-base text-gray-500">&nbsp;</p>
                 </div>
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
@@ -60,7 +58,7 @@ export default function LearnMore() {
                       />
                     </div> */}
                     <div className="text-base font-medium text-gray-700 foa-light">
-                    &nbsp;
+                      &nbsp;
                     </div>
                   </div>
                 </footer>
@@ -85,7 +83,7 @@ export default function LearnMore() {
               <div>
                 <span className="flex rounded-md">
                   <div className="text-sm font-extrabold text-blue-800 foa pb-2 text-left">
-                    <span class="outline outline-blue-800 rounded-mdsw py-1 px-2">
+                    <span class="outline outline-blue-800 rounded-md py-1 px-2">
                       SOLUTIONS
                     </span>
                   </div>

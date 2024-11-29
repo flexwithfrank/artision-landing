@@ -3,12 +3,8 @@ import SolutionsHero from './SolutionsHero';
 import FooterV2 from './FooterV2';
 import SolutionsDetails from './SolutionsDetails';
 import SolutionsDetailsV2 from './SolutionsDetailsV2';
-import SolutionsDetailV3 from './SolutionsDetailV3';
-import PartnersLogoV2 from './PartnersLogoV2';
 import Globe from './Globe';
 import CTAV4 from './CTAV3';
-import Stats from './Stats';
-import FlyoutMenu from './FlyoutMenu';
 
 const Solutions = () => {
   return (
