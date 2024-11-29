@@ -48,14 +48,14 @@ const WhoWeAreV2 = () => {
               class="relative block overflow-hidden rounded-xl bg-[url(https://ik.imagekit.io/dy6awnd3c/cristiano-firmani-tmTidmpILWw-unsplash.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672709979734)] bg-cover bg-center bg-no-repeat"
             >
               <span class="absolute right-4 top-4 z-10 inline-flex items-center rounded-full bg-black px-3 py-1 text-xs font-semibold text-white foa">
-              Technology
+                Technology
               </span>
 
               <div class="relative bg-black bg-opacity-20 p-8 pt-60 text-white text-left">
                 <h3 class="text-xl lg:text-2xl font-bold">Technology</h3>
                 <p class="text-sm max-w-xs">
-                  Superior combination of intellectual property and
-                  exclusive licenses
+                  Superior combination of intellectual property and exclusive
+                  licenses
                 </p>
               </div>
               <span class="bg-white py-1 px-1 absolute right-6 bottom-10 rounded-full">
@@ -89,8 +89,8 @@ const WhoWeAreV2 = () => {
               <div class="relative bg-black bg-opacity-20 p-8 pt-60 text-white text-left">
                 <h3 class="text-xl lg:text-2xl font-bold">Government</h3>
                 <p class="text-sm max-w-xs">
-                  Federal, State & Municipal Government, Commercial
-                  and Industrial
+                  Federal, State & Municipal Government, Commercial and
+                  Industrial
                 </p>
               </div>
               <span class="bg-white py-1 px-1 absolute right-6 bottom-10 rounded-full">

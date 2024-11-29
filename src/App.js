@@ -4,12 +4,11 @@ import HeroVideo from "./HeroVideo";
 import FooterV2 from "./FooterV2";
 import NavBarDarkV2 from "./NavBarDarkV2";
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBarDarkV2 />
+        <NavBarDarkV2 navBgColor="#000" />
         <HeroVideo />
         <FooterV2 />
       </header>
