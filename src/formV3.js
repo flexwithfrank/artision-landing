@@ -24,7 +24,7 @@ function FormV3() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_pmxlohi", "template_wlgaylq", e.target, "8czeKXozvPd18rIhZ")
+      .sendForm("service_hbjr7zn", "template_wlgaylq", e.target, "8czeKXozvPd18rIhZ")
       .then(
         (result) => {
           console.log(result.text);
