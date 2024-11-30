@@ -55,7 +55,7 @@ export default function Description() {
                 />
                 {/* <!-- End Icon --> */}
                 <div class="mt-5">
-                  <p class="font-semibold text-5xl text-white">FCI</p>
+                  <h2 class="font-bold text-5xl text-white">FCI</h2>
                   <h3 class="mt-5 font-medium text-lg text-white">
                     Federal Contract Information
                   </h3>
@@ -114,7 +114,7 @@ export default function Description() {
                 />
                 {/* <!-- End Icon --> */}
                 <div class="mt-5">
-                  <p class="font-semibold text-5xl text-white">CUI</p>
+                  <h2 class="font-bold text-5xl text-white">CUI</h2>
                   <h3 class="mt-5 font-medium text-lg text-white">
                     Unclassified Information
                   </h3>

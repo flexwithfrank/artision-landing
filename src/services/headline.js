@@ -1,3 +1,4 @@
+import Cta from "./cta";
 export default function Headline() {
   return (
     <div>
@@ -13,12 +14,7 @@ export default function Headline() {
               requirements for CMMC 2.0.
             </p>
             <div class="mt-8">
-              <button
-                type="button"
-                class="text-black bg-blue-400 hover:bg-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
-              >
-                Schedule Initial Consultation
-              </button>
+              <Cta text="Schedule Initial Consultation" />
             </div>
           </div>
         </div>

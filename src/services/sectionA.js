@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
+import Cta from "./cta";
 export default function SectionA() {
   return (
     <>
@@ -27,12 +28,15 @@ export default function SectionA() {
               {/* <!-- Blockquote --> */}
               <blockquote>
                 <p class="font-medium text-lg text-white md:text-2xl md:leading-normal xl:leading-normal">
-                CMMC 2.0 ensures contractors meet cybersecurity standards to protect sensitive government data. Whether you’re aiming for Level 1 (Foundational) or Level 3 (Expert), our customer focused approach is hands-on throughout your CMMC 2.0 compliance journey.
+                  CMMC 2.0 ensures contractors meet cybersecurity standards to
+                  protect sensitive government data. Whether you’re aiming for
+                  Level 1 (Foundational) or Level 3 (Expert), our customer
+                  focused approach is hands-on throughout your CMMC 2.0
+                  compliance journey.
                 </p>
 
                 <footer class="mt-6">
                   <div class="flex items-center">
-                   
                     <div class="ms-4 md:ms-0">
                       <div class="text-base font-semibold text-white">
                         Karen Fleckner
@@ -41,6 +45,9 @@ export default function SectionA() {
                         President & CEO | Artesion Inc.
                       </div>
                     </div>
+                  </div>
+                  <div class="my-4">
+                    <Cta text="Schedule Consultation" />
                   </div>
                 </footer>
               </blockquote>
