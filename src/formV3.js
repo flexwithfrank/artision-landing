@@ -59,7 +59,7 @@ function FormV3() {
             id="name"
             autoComplete="name"
             className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-            placeholder="Full name"
+            placeholder="Name"
             value={formData.name}
             onChange={handleChange}
           />
