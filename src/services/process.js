@@ -5,7 +5,7 @@ export default function Process() {
       {/* <!-- Approach --> */}
       <div class="bg-gray-900">
         {/* <!-- Approach --> */}
-        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20  mx-auto">
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-10  mx-auto">
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
             <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
@@ -24,7 +24,7 @@ export default function Process() {
             <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
               <img
                 class="w-full object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1587614203976-365c74645e83?q=80&w=480&h=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/89m/igq/pnl/Screenshot%202024-11-29%20at%203.19.49%20PM%201%20%281%29.png"
                 alt="Description of the image content"
               />
             </div>

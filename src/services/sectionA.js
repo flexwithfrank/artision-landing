@@ -51,7 +51,7 @@ export default function SectionA() {
             <div class="block my-12 md:my-0">
               <img
                 class="rounded-xl"
-                src="https://images.unsplash.com/photo-1671725501928-b7d85698ccd8?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/09m/paw/fnp/Screenshot%202024-11-29%20at%203.19.30%20PM%201%20%281%29.png"
                 alt="Image Description"
               />
             </div>
