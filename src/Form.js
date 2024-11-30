@@ -1,7 +1,7 @@
 import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import FormV3 from "./formV3";
 
 export default function Form() {
-
   return (
     <>
       <header className="relative  sm:pb-8 mt-6 bg-gray-50">
@@ -21,7 +21,6 @@ export default function Form() {
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
             Get in touch
           </h1>
-       
         </div>
       </header>
 
@@ -71,7 +70,10 @@ export default function Form() {
               </dl>
               <p className="mt-6 text-base text-gray-500">
                 Looking for careers?{" "}
-                <a href="#" className="font-medium text-gray-700 underline">
+                <a
+                  href="https://www.artesion.com/careers"
+                  className="font-medium text-gray-700 underline"
+                >
                   View all job openings
                 </a>
                 .
@@ -80,88 +82,7 @@ export default function Form() {
           </div>
           <div className="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
             <div className="mx-auto max-w-lg lg:max-w-none">
-              <form
-                action="https://artesion.us21.list-manage.com/subscribe/post?u=463fd05d2e39c008b7fbf4ae7&amp;id=a44a612b6c&amp;f_id=0081d0e1f0"
-                method="post"
-                id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form"
-                className="grid grid-cols-1 gap-y-6"
-              >
-                <div>
-                  <label htmlFor="full-name" className="sr-only">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    name="NAME"
-                    id="full-name"
-                    autoComplete="name"
-                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                    placeholder="Full name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="sr-only">
-                    Email
-                  </label>
-                  <input
-                    id="email"
-                    name="EMAIL"
-                    type="email"
-                    autoComplete="email"
-                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                    placeholder="Email"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="sr-only">
-                    Phone
-                  </label>
-                  <input
-                    type="text"
-                    name="PHONE"
-                    id="phone"
-                    autoComplete="tel"
-                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                    placeholder="Phone"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="sr-only">
-                    Company
-                  </label>
-                  <input
-                    type="text"
-                    name="PHONE"
-                    id="phone"
-                    autoComplete="tel"
-                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                    placeholder="Company"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="sr-only">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="MESSAGE"
-                    rows={4}
-                    className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                    placeholder="Message"
-                    defaultValue={""}
-                  />
-                </div>
-                <div>
-                  <button
-                    type="submit" value="Subscribe" name="subscribe"
-                    className="inline-flex justify-center rounded-md border border-transparent bg-blue-800 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form>
-             
+              <FormV3 />
             </div>
           </div>
         </div>
