@@ -6,7 +6,7 @@ export default function Process() {
       {/* <!-- Approach --> */}
       <div class="bg-gray-900">
         {/* <!-- Approach --> */}
-        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-10  mx-auto">
+        <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-0 mx-auto">
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
             <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
@@ -33,14 +33,6 @@ export default function Process() {
 
             {/* <!-- Timeline --> */}
             <div>
-              {/* <!-- Heading --> */}
-              <div class="mb-4">
-                <h3 class="text-xs font-medium uppercase text-blue-500">
-                  Steps
-                </h3>
-              </div>
-              {/* <!-- End Heading --> */}
-
               {/* <!-- Item --> */}
               <div class="flex gap-x-5 ms-1">
                 {/* <!-- Icon --> */}

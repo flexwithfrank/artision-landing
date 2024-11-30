@@ -1,5 +1,4 @@
 import Icon from "./icon";
-import Icon2 from "./icon2";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Description() {

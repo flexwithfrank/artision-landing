@@ -206,10 +206,12 @@ export default function Clients() {
               <Logo />
               <Logo />
             </div>
+            <hr class="border-neutral-600 mt-12" />
           </div>
         </div>
       </div>
       {/* <!-- End Clients --> */}
+    
     </div>
   );
 }

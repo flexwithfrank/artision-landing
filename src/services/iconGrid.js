@@ -7,7 +7,7 @@ export default function IconGrid() {
           {/* <!-- Grid --> */}
           <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
             {/* <!-- Icon Block --> */}
-            <div class="flex gap-x-5 sm:gap-x-8">
+            <div class="flex gap-x-5 sm:gap-x-8 items-center">
               <Icon
                 icon={
                   <svg
@@ -30,18 +30,18 @@ export default function IconGrid() {
               />
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-white">
-                  Expert Knowledge
+                  Readiness Assessments
                 </h3>
-                <p class="mt-1 text-gray-100">
+                {/* <p class="mt-1 text-gray-100">
                   Artesion and our partners provide expert knowledge and
                   experience to support your CMMC 2.0 mission readiness
                   compliance.
-                </p>
+                </p> */}
               </div>
             </div>
             {/* break */}
 
-            <div class="flex gap-x-5 sm:gap-x-8">
+            <div class="flex gap-x-5 sm:gap-x-8 items-center">
               <Icon
                 icon={
                   <svg
@@ -64,17 +64,13 @@ export default function IconGrid() {
               />
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-white">
-                  Certified Experts
+                  Remediation Planning
                 </h3>
-                <p class="mt-1 text-gray-100">
-                  Certified experts with proven success in DoD contractor
-                  certifications.
-                </p>
               </div>
             </div>
             {/* break */}
 
-            <div class="flex gap-x-5 sm:gap-x-8">
+            <div class="flex gap-x-5 sm:gap-x-8 items-center">
               <Icon
                 icon={
                   <svg
@@ -97,16 +93,13 @@ export default function IconGrid() {
               />
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-white">
-                  Flexible solutions
+                  Managed Services
                 </h3>
-                <p class="mt-1 text-gray-100">
-                  Flexible solutions tailored to your organization’s needs.
-                </p>
               </div>
             </div>
             {/* break */}
 
-            <div class="flex gap-x-5 sm:gap-x-8">
+            <div class="flex gap-x-5 sm:gap-x-8 items-center">
               <Icon
                 icon={
                   <svg
@@ -129,11 +122,8 @@ export default function IconGrid() {
               />
               <div class="grow">
                 <h3 class="text-base sm:text-lg font-semibold text-white">
-                  CMC Readiness
+                  Certification Assistance
                 </h3>
-                <p class="mt-1 text-gray-100">
-                  Advisory services to support Continuous Process Improvement
-                </p>
               </div>
             </div>
             {/* break */}
