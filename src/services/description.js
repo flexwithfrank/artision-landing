@@ -77,9 +77,12 @@ export default function Description() {
                 </div>
               </div>
               <p class="mt-auto">
-                <span class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]">
+                <a
+                  href="https://www.artesion.com/contact"
+                  class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]"
+                >
                   Schedule Consultation
-                </span>
+                </a>
               </p>
             </a>
             {/* <!-- End Card --> */}
@@ -137,9 +140,12 @@ export default function Description() {
                 </div>
               </div>
               <p class="mt-auto">
-                <span class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]">
+                <a
+                  href="https://www.artesion.com/contact"
+                  class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]"
+                >
                   Schedule Consultation
-                </span>
+                </a>
               </p>
             </a>
             {/* <!-- End Card --> */}

@@ -55,21 +55,21 @@ export default function SectionA() {
             </div>
             {/* <!-- End Col --> */}
 
-            {/* <div class="block my-12 md:my-0">
+            <div class="block my-12 md:my-0">
               <img
                 class="rounded-xl"
                 src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/09m/paw/fnp/Screenshot%202024-11-29%20at%203.19.30%20PM%201%20%281%29.png"
                 alt="Image Description"
               />
-            </div> */}
+            </div>
 
-            <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+            {/* <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
               <img
                 class="w-full object-cover rounded-xl"
                 src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/89m/igq/pnl/Screenshot%202024-11-29%20at%203.19.49%20PM%201%20%281%29.png"
                 alt="Description of the image content"
               />
-            </div>
+            </div> */}
             {/* <!-- End Col --> */}
           </div>
           {/* <!-- End Grid --> */}

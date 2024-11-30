@@ -2,7 +2,7 @@
 export default function chooseUs() {
   return (
     <div className="bg-gray-900">
-      <div class="px-4 py-10 mx-auto max-w-6xl">
+      <div class="py-10 mx-auto max-w-6xl">
         <div class="relative p-6">
           <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
@@ -185,7 +185,7 @@ export default function chooseUs() {
                   >
                     <img
                       class="shadow-xl rounded-xl dark:shadow-gray-900/20"
-                      src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                      src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/35c51788-a274-492e-a443-6032248a1000/public"
                       alt="Features Image"
                     />
                   </div>
@@ -198,7 +198,7 @@ export default function chooseUs() {
                   >
                     <img
                       class="shadow-xl rounded-xl dark:shadow-gray-900/20"
-                      src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                      src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/e534e455-9419-4a4f-5542-400ca47f6800/public"
                       alt="Features Image"
                     />
                   </div>
@@ -211,7 +211,7 @@ export default function chooseUs() {
                   >
                     <img
                       class="shadow-xl rounded-xl dark:shadow-gray-900/20"
-                      src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                      src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/e1fe45f7-44b1-4d80-3f46-22ed527ecf00/public"
                       alt="Features Image"
                     />
                   </div>
@@ -224,40 +224,10 @@ export default function chooseUs() {
                   >
                     <img
                       class="shadow-xl rounded-xl dark:shadow-gray-900/20"
-                      src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                      src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/2c88a024-f3a0-4142-34ab-96e815a87800/public"
                       alt="Features Image"
                     />
                   </div>
-                </div>
-
-                <div class="hidden absolute top-0 end-0 translate-x-20 md:block lg:translate-x-20">
-                  <svg
-                    class="w-16 h-auto text-orange-500"
-                    width="121"
-                    height="135"
-                    viewBox="0 0 121 135"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
-                      stroke="currentColor"
-                      stroke-width="10"
-                      stroke-linecap="round"
-                    />
-                    <path
-                      d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
-                      stroke="currentColor"
-                      stroke-width="10"
-                      stroke-linecap="round"
-                    />
-                    <path
-                      d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
-                      stroke="currentColor"
-                      stroke-width="10"
-                      stroke-linecap="round"
-                    />
-                  </svg>
                 </div>
               </div>
             </div>

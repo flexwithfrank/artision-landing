@@ -4,7 +4,7 @@ export default function Headline() {
     <div>
       <div class="bg-gray-900">
         <div class="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
-          <h1 class="font-semibold text-white text-5xl md:text-6xl">
+          <h1 class="font-semibold text-white text-3xl md:text-6xl">
             <span class="text-blue-400">Achieve CMMC 2.0 </span>compliance with
             assurance
           </h1>

@@ -10,7 +10,7 @@ export default function Process() {
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
             <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-              Our approach
+              Our Approach
             </h2>
             <p class="mt-1 text-neutral-400">
               This profound insight guides our comprehensive strategy — from

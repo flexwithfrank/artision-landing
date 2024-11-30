@@ -14,10 +14,10 @@
   color: white;
 }
 
-
 @font-face {
   font-family: "madani";
-  src: local("madani"), url("../public/fonts/Madani Arabic Bold.ttf") format("truetype"),
+  src: local("madani"),
+    url("../public/fonts/Madani Arabic Bold.ttf") format("truetype"),
     url("../public/fonts/madani_arabic_bold-webfont.woff") format("woff"),
     url("../public/fonts/madani_arabic_bold-webfont.woff2") format("woff2");
   font-weight: normal;
@@ -25,14 +25,16 @@
 
 @font-face {
   font-family: "foa";
-  src: local("foa"), url("../public/fonts/Aktifo-B-ExtraBold.ttf") format("truetype"),
+  src: local("foa"),
+    url("../public/fonts/Aktifo-B-ExtraBold.ttf") format("truetype"),
     url("../public/fonts/Aktifo-B-ExtraBold.woff") format("woff"),
     url("../public/fonts/Aktifo-B-ExtraBold.woff2") format("woff2");
   font-weight: normal;
 }
 @font-face {
   font-family: "foa-book";
-  src: local("foa-book"), url("../public/fonts/Aktifo-A-Medium.ttf") format("truetype"),
+  src: local("foa-book"),
+    url("../public/fonts/Aktifo-A-Medium.ttf") format("truetype"),
     url("../public/fonts/Aktifo-A-Medium.woff") format("woff"),
     url("../public/fonts/Aktifo-A-Medium.woff2") format("woff2");
   font-weight: normal;
@@ -40,46 +42,51 @@
 
 @font-face {
   font-family: "foa-light";
-  src: local("foa-light"), url("../public/fonts/Aktifo-A-Light.ttf") format("truetype"),
+  src: local("foa-light"),
+    url("../public/fonts/Aktifo-A-Light.ttf") format("truetype"),
     url("../public/fonts/Aktifo-A-Light.woff") format("woff"),
     url("../public/fonts/Aktifo-A-Light.woff2") format("woff2");
   font-weight: normal;
 }
 
 .madani {
-font-family: madani, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-sans-serif !important;
+  font-family: madani, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
 }
-.foa{
-  font-family: foa, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif !important;
+.foa {
+  font-family: foa, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
 }
-.foa-book{
-  font-family: foa-book, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif !important;
-}
-
-.foa-light{
-  font-family: foa-light, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif !important;
+.foa-book {
+  font-family: foa-book, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.foa-light {
+  font-family: foa-light, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: foa !important;
 }
 
-p{
+p {
   font-family: foa-book !important;
 }
 .video-docker video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 .video-docker::after {
   content: "";
@@ -94,23 +101,32 @@ p{
 
 .video-content {
   z-index: 2;
-
 }
 
-.polka-2{
-  background: radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #f3f3f3 47%, #f3f3f3 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #f3f3f3 47%, #f3f3f3 52%, transparent 53%);
-        background-size: 2em 2em;
-        background-color: #ffffff;
-        opacity: 1
+.polka-2 {
+  background: radial-gradient(circle, transparent 25%, #ffffff 26%),
+    linear-gradient(
+      45deg,
+      transparent 46%,
+      #f3f3f3 47%,
+      #f3f3f3 52%,
+      transparent 53%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 46%,
+      #f3f3f3 47%,
+      #f3f3f3 52%,
+      transparent 53%
+    );
+  background-size: 2em 2em;
+  background-color: #ffffff;
+  opacity: 1;
 }
 
-	.st0{
-    fill:#FFFFFF;
-  }
-
-
-
-
+.st0 {
+  fill: #ffffff;
+}
 
 /* GLOBE */
 .globe {
@@ -145,7 +161,7 @@ p{
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #00FFD3;
+  background: #00ffd3;
   transition: opacity 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -169,7 +185,7 @@ p{
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #00FFD3;
+  background: #00ffd3;
   -webkit-animation: 2s pulse infinite linear;
   animation: 2s pulse infinite linear;
 }
@@ -207,7 +223,7 @@ p{
 
 .globe .globe-list > li.active,
 .globe .globe-list > li.active:before {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .globe .globe-list .text {
@@ -220,8 +236,9 @@ p{
   line-height: 14px;
   font-weight: 600;
   text-align: right;
-  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
-  color: #FFFFFF;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  color: #ffffff;
   white-space: nowrap;
   transform: translateY(-50%);
 }
@@ -246,7 +263,7 @@ p{
   width: 100%;
   opacity: 0.3;
   -webkit-animation: rotation 10s linear infinite;
-          animation: rotation 10s linear infinite;
+  animation: rotation 10s linear infinite;
 }
 
 .svg-wrapper {
@@ -284,4 +301,3 @@ p{
     transform: scaleX(-1) rotate(0deg);
   }
 }
-
