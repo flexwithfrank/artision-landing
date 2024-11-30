@@ -11,6 +11,8 @@ import Solutions from "./Solutions";
 import "tw-elements";
 import Careers from "./Careers";
 import Services from "./services/services";
+import Privacy from "./privacy/privacy";
+import Terms from "./terms/terms";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +26,8 @@ root.render(
         <Route path="/solutions" element={<Solutions />} />
         <Route path="/Careers" element={<Careers />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

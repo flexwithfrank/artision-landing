@@ -44,7 +44,7 @@ function FormV3() {
   return (
     <div>
       {success && (
-        <div className="bg-green-500 text-white p-4 rounded-md mb-4">
+        <div className="bg-green-500 text-white p-4 rounded-md mb-4 foa">
           Your message has been sent successfully!
         </div>
       )}
@@ -74,6 +74,7 @@ function FormV3() {
             type="email"
             autoComplete="email"
             className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+            required
             placeholder="Email"
             value={formData.email}
             onChange={handleChange}
@@ -105,6 +106,7 @@ function FormV3() {
             autoComplete="organization"
             className="block w-full rounded-md border-gray-300 py-3 px-4 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
             placeholder="Company"
+            required
             value={formData.company}
             onChange={handleChange}
           />

@@ -1,4 +1,7 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import { Link } from "react-router-dom";
+
+const currentYear = new Date().getFullYear();
 
 const navigation = {
   solutions: [
@@ -18,8 +21,8 @@ const navigation = {
     // { name: "Partners", to: "/about" },
   ],
   legal: [
-    { name: "Privacy", to: "#" },
-    { name: "Terms", to: "#" },
+    { name: "Privacy", to: "/privacy" },
+    { name: "Terms", to: "/terms" },
   ],
   social: [
     {
@@ -88,7 +91,10 @@ const navigation = {
 
 export default function FooterV2() {
   return (
-    <footer className="bg-white text-left foa-book" aria-labelledby="footer-heading">
+    <footer
+      className="bg-white text-left foa-book"
+      aria-labelledby="footer-heading"
+    >
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -121,9 +127,7 @@ export default function FooterV2() {
           <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-base font-medium text-gray-900">
-                  About
-                </h3>
+                <h3 className="text-base font-medium text-gray-900">About</h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
@@ -138,7 +142,9 @@ export default function FooterV2() {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-gray-900">Solutions</h3>
+                <h3 className="text-base font-medium text-gray-900">
+                  Solutions
+                </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
@@ -189,7 +195,8 @@ export default function FooterV2() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-400 xl:text-center">
-            &copy; 2023 Artesion, Inc. All rights reserved.
+            {/* js year display */}
+            &copy;{currentYear} Artesion, Inc. All rights reserved.
           </p>
         </div>
       </div>

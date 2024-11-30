@@ -62,7 +62,7 @@ export default function NavBarDarkV2({ navBgColor }) {
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center rounded-full border border-transparent bg-blue-800 px-4 py-2 text-base font-medium text-white hover:bg-gray-700 foa"
+                className="inline-flex items-center rounded-full border border-transparent bg-white px-4 py-2 text-base font-medium text-black foa"
               >
                 Contact Us
               </Link>

@@ -1,9 +1,9 @@
-
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
+import FlexCta from "./services/flexCta";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -60,7 +60,7 @@ export default function SolutionsHero() {
               </Link>
               <Link
                 to="contact"
-                className="inline-flex items-center rounded-full border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700 foa-book"
+                className="inline-flex items-center rounded-full border border-transparent bg-white px-4 py-2 text-base font-medium text-black hover:bg-gray-700 foa-book"
               >
                 Contact Us
               </Link>
@@ -119,8 +119,10 @@ export default function SolutionsHero() {
                 </div>
                 <div className="mt-6 px-5">
                   <p className="text-center text-base font-medium text-gray-500">
-                   
-                    <Link to="/about" className="text-gray-900 hover:underline foa">
+                    <Link
+                      to="/about"
+                      className="text-gray-900 hover:underline foa"
+                    >
                       Learn More
                     </Link>
                   </p>
@@ -144,7 +146,9 @@ export default function SolutionsHero() {
                     <span className="rounded-full bg-blue-800 px-3 py-0.5 text-sm font-semibold leading-5 text-white foa-book">
                       Artesion
                     </span>
-                    <span className="ml-4 text-sm foa-book">AI — Analytic —  Compute Platform</span>
+                    <span className="ml-4 text-sm foa-book">
+                      AI — Analytic — Compute Platform
+                    </span>
                     <ChevronRightIcon
                       className="ml-2 h-5 w-5 text-gray-500"
                       aria-hidden="true"
@@ -155,39 +159,15 @@ export default function SolutionsHero() {
                     <span className="block text-gray-200 foa">Management</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                    Artesion EDGE is a compute, AI ⁄ ML, and analytic platform that brings the scalability and redundancy of the cloud to the edge.
+                    Artesion EDGE is a compute, AI ⁄ ML, and analytic platform
+                    that brings the scalability and redundancy of the cloud to
+                    the edge.
                   </p>
-                  <div className="mt-10 sm:mt-12">
-                    <form action="#" className="sm:mx-auto sm:max-w-xl lg:mx-0">
-                      <div className="sm:flex">
-                        <div className="min-w-0 flex-1">
-                          <label htmlFor="email" className="sr-only">
-                            Email address
-                          </label>
-                          <input
-                            id="email"
-                            type="email"
-                            placeholder="Enter your email"
-                            className="block w-full rounded-full border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900 foa-book"
-                          />
-                        </div>
-                        <div className="mt-3 sm:mt-0 sm:ml-3">
-                          <button
-                            type="submit"
-                            className="block w-full rounded-full bg-blue-800 py-3 px-4 font-medium text-white shadow hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900 foa-book"
-                          >
-                          Subscribe
-                          </button>
-                        </div>
-                      </div>
-                      <p className="mt-3 text-xs text-gray-300 sm:mt-4">
-                        By submitting your email you agree to receive marketing messages from Artesion Inc. and the collection of your personal data for marketing purposes. Learn more in our{" "}
-                        <a href="#" className="font-medium text-white">
-                          terms of service
-                        </a>
-                        .
-                      </p>
-                    </form>
+                  <div className="mt-6">
+                    <FlexCta 
+                    bgColor={"#FFF"}
+                    textColor={"#000000"}
+                    text="Schedule Consultation" />
                   </div>
                 </div>
               </div>
