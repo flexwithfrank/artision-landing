@@ -1,7 +1,28 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+import React, { useState, useEffect } from "react";
 /* eslint-disable jsx-a11y/img-redundant-alt */
 export default function chooseUs() {
+  // const [activeButtonIndex, setActiveButtonIndex] = useState(0);
+
+  // useEffect(() => {
+  //   const buttons = document.querySelectorAll('.target-btn');
+  //   const interval = setInterval(() => {
+  //     // Remove active from all buttons
+  //     buttons.forEach(button => button.classList.remove('active'));
+
+  //     // Add active to current button
+  //     buttons[activeButtonIndex].classList.add('active');
+
+  //     // Move to next button or reset to first
+  //     setActiveButtonIndex((prev) => (prev + 1) % buttons.length);
+  //   }, 2000);
+
+  //   // Cleanup on unmount
+  //   return () => clearInterval(interval);
+  // }, [activeButtonIndex]);
+
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 bg-gradient-to-t from-black to-transparent">
       <div class="py-10 mx-auto max-w-6xl">
         <div class="relative p-6">
           <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
@@ -19,7 +40,7 @@ export default function chooseUs() {
                 {/* btn */}
                 <button
                   type="button"
-                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl active"
+                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl active target-btn"
                   id="tabs-with-card-item-1"
                   aria-selected="true"
                   data-hs-tab="#tabs-with-card-1"
@@ -35,7 +56,7 @@ export default function chooseUs() {
                       viewBox="0 0 24 24"
                       strokeWidth={2}
                       stroke="currentColor"
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-gray-200 text-white"
+                      className="shrink-0 mt-1 size-6 md:size-7 hs-tab-active:text-white text-neutral-400"
                     >
                       <path
                         strokeLinecap="round"
@@ -45,10 +66,10 @@ export default function chooseUs() {
                     </svg>
 
                     <span class="grow">
-                      <span class="block text-lg font-semibold hs-tab-active:text-gray-200 text-white foa">
+                      <span class="block text-lg font-semibold hs-tab-active:text-white text-neutral-400 foa">
                         Expert Knowledge
                       </span>
-                      <span class="block mt-1 text-white foa-book">
+                      <span class="hidden hs-tab-active:block mt-1 hs-tab-active:text-white text-neutral-400 foa-book">
                         Artesion and our partners provide expert knowledge and
                         experience to support your CMMC 2.0 mission readiness
                         compliance.
@@ -59,7 +80,7 @@ export default function chooseUs() {
                 {/* btn */}
                 <button
                   type="button"
-                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl"
+                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl target-btn"
                   id="tabs-with-card-item-2"
                   aria-selected="false"
                   data-hs-tab="#tabs-with-card-2"
@@ -75,7 +96,7 @@ export default function chooseUs() {
                       viewBox="0 0 24 24"
                       strokeWidth={2}
                       stroke="currentColor"
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-gray-200 text-white"
+                      className="shrink-0 mt-1 size-6 md:size-7 hs-tab-active:text-white text-neutral-400"
                     >
                       <path
                         strokeLinecap="round"
@@ -85,10 +106,10 @@ export default function chooseUs() {
                     </svg>
 
                     <span class="grow">
-                      <span class="block text-lg font-semibold hs-tab-active:text-gray-200 text-white foa">
+                      <span class="block text-lg font-semibold hs-tab-active:text-white text-neutral-400 foa">
                         Certified Experts
                       </span>
-                      <span class="block mt-1 text-white foa-book">
+                      <span class="mt-1 hs-tab-active:text-white text-neutral-400 foa-book hidden hs-tab-active:block">
                         Certified experts with proven success in DoD contractor
                         certifications.
                       </span>
@@ -98,7 +119,7 @@ export default function chooseUs() {
                 {/* btn */}
                 <button
                   type="button"
-                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl"
+                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl target-btn"
                   id="tabs-with-card-item-3"
                   aria-selected="false"
                   data-hs-tab="#tabs-with-card-3"
@@ -114,7 +135,7 @@ export default function chooseUs() {
                       viewBox="0 0 24 24"
                       strokeWidth={2}
                       stroke="currentColor"
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-gray-200 text-white"
+                      className="shrink-0 mt-1 size-6 md:size-7 hs-tab-active:text-white text-neutral-400"
                     >
                       <path
                         strokeLinecap="round"
@@ -123,10 +144,10 @@ export default function chooseUs() {
                       />
                     </svg>
                     <span class="grow">
-                      <span class="block text-lg font-semibold hs-tab-active:text-gray-200 text-white foa">
+                      <span class="block text-lg font-semibold hs-tab-active:text-white text-neutral-400 foa">
                         Flexible solutions
                       </span>
-                      <span class="block mt-1 text-white foa-book">
+                      <span class="hidden hs-tab-active:block mt-1 hs-tab-active:text-white text-neutral-400 foa-book">
                         Flexible solutions tailored to your organization’s
                         needs.
                       </span>
@@ -136,7 +157,7 @@ export default function chooseUs() {
                 {/* btn */}
                 <button
                   type="button"
-                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl"
+                  class="hs-tab-active:bg-gray-800 hs-tab-active:shadow-md hs-tab-active:border hs-tab-active:border-neutral-600 hs-tab-active:hover:border-neutral-600 text-start hover:bg-gray-800 focus:outline-none focus:bg-gray-800 p-4 md:p-5 rounded-xl target-btn"
                   id="tabs-with-card-item-4"
                   aria-selected="false"
                   data-hs-tab="#tabs-with-card-4"
@@ -152,7 +173,7 @@ export default function chooseUs() {
                       viewBox="0 0 24 24"
                       strokeWidth={2}
                       stroke="currentColor"
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-gray-200 text-white"
+                      className="shrink-0 mt-1 size-6 md:size-7 hs-tab-active:text-white text-neutral-400"
                     >
                       <path
                         strokeLinecap="round"
@@ -162,10 +183,10 @@ export default function chooseUs() {
                     </svg>
 
                     <span class="grow">
-                      <span class="block text-lg font-semibold hs-tab-active:text-gray-200 text-white foa">
+                      <span class="block text-lg font-semibold hs-tab-active:text-white text-neutral-400 foa">
                         CMC Readiness
                       </span>
-                      <span class="block mt-1 text-white foa-book">
+                      <span class="hidden hs-tab-active:block mt-1 hs-tab-active:text-white text-neutral-400 foa-book">
                         Advisory services to support Continuous Process
                         Improvement
                       </span>

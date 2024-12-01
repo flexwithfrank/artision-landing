@@ -4,7 +4,7 @@ export default function Process() {
   return (
     <>
       {/* <!-- Approach --> */}
-      <div class="bg-gray-900">
+      <div class="bg-black bg-gradient-to-t from-gray-900 to-transparent">
         {/* <!-- Approach --> */}
         <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-0 mx-auto">
           {/* <!-- Title --> */}

@@ -9,16 +9,8 @@ export default function SectionA() {
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
             <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-              Who Does Not Need CMMC 2.0?
+              The CMMC 2.0 Compliance Journey
             </h2>
-            <p class="mt-1 text-neutral-400">
-              Companies that do not work on DoD contracts or do not handle FCI
-              or CUI.
-            </p>
-            <p class="mt-1 text-neutral-400">
-              Contracts where no sensitive information is shared may not require
-              CMMC compliance.
-            </p>
           </div>
           {/* <!-- End Title --> */}
 

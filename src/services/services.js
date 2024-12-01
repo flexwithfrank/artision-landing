@@ -7,16 +7,15 @@ import SectionA from "./sectionA";
 import SectionB from "./sectionB";
 import Process from "./process";
 import RecommendedApproach from "./recommendedApproach";
-import BrandFooter from "./brandFooter";
-import CtaBanner from "./ctaBanner";
 import FooterV2 from "../FooterV2";
 import ChooseUs from "./chooseUs";
+import ContactForm from "./contactForm";
 export default function Services() {
   return (
     <div class="min-h-full bg-gray-800">
       <NavBarDarkV2 navBgColor="#101827" />
       <Headline />
-   
+
       <Clients />
       <Description />
       <SectionA />
@@ -24,7 +23,7 @@ export default function Services() {
       <ChooseUs />
       <Process />
       <RecommendedApproach />
-      <CtaBanner />
+      <ContactForm />
       <FooterV2 />
     </div>
   );

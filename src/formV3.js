@@ -7,7 +7,7 @@ function FormV3() {
     email: "",
     phone: "",
     company: "",
-    message: ""
+    message: "",
   });
 
   const [success, setSuccess] = useState(false);
@@ -24,7 +24,12 @@ function FormV3() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_hbjr7zn", "template_wlgaylq", e.target, "8czeKXozvPd18rIhZ")
+      .sendForm(
+        "service_hbjr7zn",
+        "template_wlgaylq",
+        e.target,
+        "8czeKXozvPd18rIhZ"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -43,11 +48,6 @@ function FormV3() {
 
   return (
     <div>
-      {success && (
-        <div className="bg-green-500 text-white p-4 rounded-md mb-4 foa">
-          Your message has been sent successfully!
-        </div>
-      )}
       <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-y-6">
         <div>
           <label htmlFor="name" className="sr-only">
@@ -132,6 +132,11 @@ function FormV3() {
           Submit Your Request
         </button>
       </form>
+      {success && (
+        <div className="bg-green-500 text-white p-3 rounded-md foa mt-4">
+          Your message has been sent successfully!
+        </div>
+      )}
     </div>
   );
 }

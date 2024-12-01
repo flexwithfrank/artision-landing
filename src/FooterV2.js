@@ -159,7 +159,7 @@ export default function FooterV2() {
                 </ul>
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="md:grid md:grid-cols-3 md:gap-8">
               <div>
                 <h3 className="text-base font-medium text-gray-900">Company</h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -189,6 +189,13 @@ export default function FooterV2() {
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div>
+              <img
+                className="mx-auto mb-6 w-32 flex-col text-3xl font-bold md:text-5xl text-white"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/59f/4uv/dzd/Screenshot%202024-11-29%20at%2010.19.06%20PM%201.png"
+                alt="cta-banner"
+              />
               </div>
             </div>
           </div>
