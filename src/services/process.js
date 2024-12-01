@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import Cta from "./cta";
+import CtaAnchor from "./ctaAnchor";
 export default function Process() {
   return (
     <>
@@ -152,7 +152,7 @@ export default function Process() {
               </div>
               {/* <!-- End Item --> */}
 
-              <Cta text="Schedule Consultation" />
+              <CtaAnchor text="Schedule Consultation" />
             </div>
             {/* <!-- End Timeline --> */}
           </div>

@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState, useEffect } from "react";
+import CtaAnchor from "./ctaAnchor";
 /* eslint-disable jsx-a11y/img-redundant-alt */
 export default function chooseUs() {
   // const [activeButtonIndex, setActiveButtonIndex] = useState(0);

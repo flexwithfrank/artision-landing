@@ -28,7 +28,7 @@ export default function Description() {
             {/* <!-- Card --> */}
             <a
               class="group relative z-10 p-4 md:p-6 h-full flex flex-col bg-gray-900 first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-gradient-to-b before:hover:from-transparent before:hover:via-transparent before:hover:to-[#73aafa]/10 before:via-80% before:-z-[1] before:last:rounded-b-xl lg:before:first:rounded-s-xl lg:before:last:rounded-e-xl lg:before:last:rounded-bl-none before:opacity-0 before:hover:opacity-100"
-              href="#"
+              href="#contact-form"
             >
               <div class="mb-5">
                 {/* <!-- Icon --> */}
@@ -78,7 +78,7 @@ export default function Description() {
               </div>
               <p class="mt-auto">
                 <a
-                  href="https://www.artesion.com/contact"
+                  href="#contact-form"
                   class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]"
                 >
                   Schedule Consultation
@@ -90,7 +90,7 @@ export default function Description() {
             {/* <!-- Card --> */}
             <a
               class="group relative z-10 p-4 md:p-6 h-full flex flex-col bg-gray-900 first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-gradient-to-b before:hover:from-transparent before:hover:via-transparent before:hover:to-[#73aafa]/10 before:via-80% before:-z-[1] before:last:rounded-b-xl lg:before:first:rounded-s-xl lg:before:last:rounded-e-xl lg:before:last:rounded-bl-none before:opacity-0 before:hover:opacity-100"
-              href="#"
+              href="#contact-form"
             >
               <div class="mb-5">
                 {/* <!-- Icon --> */}
@@ -141,7 +141,7 @@ export default function Description() {
               </div>
               <p class="mt-auto">
                 <a
-                  href="https://www.artesion.com/contact"
+                  href="#contact-form"
                   class="font-medium text-sm text-[#73aafa] pb-1 border-b-2 border-neutral-700 group-hover:border-[#73aafa] transition focus:outline-none group-focus:border-[#73aafa]"
                 >
                   Schedule Consultation

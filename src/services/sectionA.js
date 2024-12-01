@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import Cta from "./cta";
+import CtaAnchor from "./ctaAnchor";
 export default function SectionA() {
   return (
     <>
@@ -39,7 +39,7 @@ export default function SectionA() {
                     </div>
                   </div>
                   <div class="my-4">
-                    <Cta text="Schedule Consultation" />
+                    <CtaAnchor text="Schedule Consultation" />
                   </div>
                 </footer>
               </blockquote>

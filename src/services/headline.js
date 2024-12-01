@@ -1,4 +1,4 @@
-import Cta from "./cta";
+import CtaAnchor from "./ctaAnchor";
 export default function Headline() {
   return (
     <div>
@@ -14,7 +14,7 @@ export default function Headline() {
               requirements for CMMC 2.0.
             </p>
             <div class="mt-8">
-              <Cta text="Schedule Initial Consultation" />
+              <CtaAnchor text="Schedule Initial Consultation" />
             </div>
           </div>
         </div>

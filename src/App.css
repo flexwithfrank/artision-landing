@@ -301,3 +301,6 @@ p {
     transform: scaleX(-1) rotate(0deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
