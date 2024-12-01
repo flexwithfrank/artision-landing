@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import SuccessAlert from "./services/successAlert";
 
 function FormV3() {
   const [formData, setFormData] = useState({
@@ -133,9 +134,40 @@ function FormV3() {
         </button>
       </form>
       {success && (
-        <div className="bg-green-500 text-white p-3 rounded-md foa mt-4">
-          Your message has been sent successfully!
-        </div>
+        <>
+          <div
+            id="dismiss-alert"
+            class="hs-removing:translate-x-5 hs-removing:opacity-0 transition duration-300 bg-teal-50 border border-teal-200 text-sm text-teal-800 rounded-lg p-3 dark:bg-teal-800/10 dark:border-teal-900 items-center mt-3"
+            role="alert"
+            tabindex="-1"
+            aria-labelledby="hs-dismiss-button-label"
+          >
+            <div class="flex gap-2">
+              <div class="shrink-0 mb-2">
+                <svg
+                  class="shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+              </div>
+              <div class="mt-1">
+                <p id="hs-dismiss-button-label" class="text-sm font-medium">
+                  Your message has been sent successfully!
+                </p>
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </div>
   );

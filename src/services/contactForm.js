@@ -29,13 +29,13 @@ export default function ContactForm() {
               <div class="flex sm:flex-row flex-col justify-center items-center gap-x-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="28"
+                  height="28"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="shrink-0 size-7 text-neutral-500"
+                  class="shrink-0 size-8 text-neutral-500"
                 >
                   <path
                     stroke-linecap="round"
