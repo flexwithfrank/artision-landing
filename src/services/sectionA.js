@@ -9,7 +9,7 @@ export default function SectionA() {
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
             <h2 class="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-              The CMMC 2.0 Compliance Journey
+              CMMC 2.0 Compliance
             </h2>
           </div>
           {/* <!-- End Title --> */}
