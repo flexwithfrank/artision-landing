@@ -26,7 +26,7 @@ export default function ContactForm() {
             <div class="space-y-14">
              
               {/* <!-- Item --> */}
-              <div class="flex sm:flex-row flex-col justify-center items-center gap-x-5">
+              <div class="flex gap-x-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
