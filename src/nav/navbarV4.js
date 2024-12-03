@@ -69,13 +69,22 @@ export default function NavBarV4({ bgColor, color, logo }) {
               <div class="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-6">
                 <div class="grow">
                   <div class="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-6">
-                    <a
+                    <Link
                       class="p-2 flex items-center text-md hover:bg-transparent rounded-lg focus:outline-none focus:bg-transparent dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 foa-book"
-                      href="/"
+                      to="/"
+                      target="_blank"
                       aria-current="page"
                     >
                       Home
-                    </a>
+                    </Link>
+                    <Link
+                      class="p-2 flex items-center text-md hover:bg-transparent rounded-lg focus:outline-none focus:bg-transparent dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 foa-book"
+                      to="/about"
+                      target="_blank"
+                      aria-current="page"
+                    >
+                      About
+                    </Link>
 
                     {/* <!-- Mega Menu --> */}
                     <div class="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] [--is-collapse:true] md:[--is-collapse:false] ">
