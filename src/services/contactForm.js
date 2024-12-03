@@ -1,9 +1,13 @@
+/* eslint-disable react/jsx-no-target-blank */
 import FormV3 from "../formV3";
 export default function ContactForm() {
   return (
     <>
       {/* <!-- Contact --> */}
-      <div id="contact-form" class="bg-gray-900 bg-gradient-to-t from-black to-transparent">
+      <div
+        id="contact-form"
+        class="bg-gray-900 bg-gradient-to-t from-black to-transparent"
+      >
         <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
           {/* <!-- Title --> */}
           <div class="max-w-3xl mb-10 lg:mb-14">
@@ -24,7 +28,6 @@ export default function ContactForm() {
             {/* <!-- End Col --> */}
 
             <div class="space-y-14">
-             
               {/* <!-- Item --> */}
               <div class="flex gap-x-5">
                 <svg
@@ -33,6 +36,7 @@ export default function ContactForm() {
                   height="28"
                   fill="none"
                   viewBox="0 0 24 24"
+                  a
                   stroke-width="1.5"
                   stroke="currentColor"
                   class="shrink-0 size-8 text-neutral-500"
@@ -76,17 +80,17 @@ export default function ContactForm() {
 
                   <a
                     class="mt-1 text-neutral-400 text-sm hover:text-neutral-200 focus:outline-none focus:text-neutral-200 foa-book"
-                    href="#mailto:example@site.co"
+                    href="mailto:cmmc@artesion.com"
                     target="_blank"
                   >
-                    placeholder@artesion.com
+                    cmmc@artesion.com
                   </a>
                 </div>
               </div>
               {/* <!-- End Item --> */}
 
               {/* <!-- Item --> */}
-              <div class="flex gap-x-5">
+              {/* <div class="flex gap-x-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -136,7 +140,7 @@ export default function ContactForm() {
                     </a>
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* <!-- End Item --> */}
             </div>
             {/* <!-- End Col --> */}
