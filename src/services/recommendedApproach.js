@@ -12,12 +12,22 @@ export default function RecommendedApproach() {
         {/* <!-- End Title --> */}
 
         {/* card */}
-        <div class="flex flex-col mx-auto justify-center items-center">
-          <img
-            src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/e54fedba-686b-4e9c-6a05-d1844a58b600/public"
-            alt="Image Description"
-            className="w-3/4"
-          />
+
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8">
+          <div className="col-span-8">
+            <img
+              src="https://imagedelivery.net/DmjG_TsKdaET_s4bmkVMyw/e54fedba-686b-4e9c-6a05-d1844a58b600/public"
+              alt="Image Description"
+              className="w-full"
+            />
+          </div>
+          <div className="col-span-4">
+            <img
+              src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/59f/4uv/dzd/Screenshot%202024-11-29%20at%2010.19.06%20PM%201.png"
+              alt="Image Description"
+              className="w-full"
+            />
+          </div>
         </div>
       </div>
     </div>
