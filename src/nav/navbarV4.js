@@ -145,6 +145,7 @@ export default function NavBarV4({ bgColor, color, logo }) {
                           <Link
                             class="p-3 flex gap-x-4 hover:bg-gray-50 focus:outline-none focus:bg-transparent rounded-lg dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
                             to="/services"
+                            target="_blank"
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -180,6 +181,7 @@ export default function NavBarV4({ bgColor, color, logo }) {
                           <Link
                             class="p-3 flex gap-x-4 hover:bg-gray-50 focus:outline-none focus:bg-transparent rounded-lg dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
                             to="/solutions"
+                            target="_blank"
                           >
                             <svg
                               class="shrink-0 size-4 mt-1 text-gray-800 dark:text-neutral-200"
@@ -253,6 +255,7 @@ export default function NavBarV4({ bgColor, color, logo }) {
                     <Link
                       class="p-2 flex items-center text-md hover:bg-transparent rounded-lg focus:outline-none focus:bg-transparent dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 foa-book"
                       to="/solutions"
+                      target="_blank"
                     >
                       <svg
                         class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
@@ -275,6 +278,7 @@ export default function NavBarV4({ bgColor, color, logo }) {
                     <Link
                       class="p-2 flex items-center text-md hover:bg-transparent rounded-lg focus:outline-none focus:bg-transparent dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 foa-book"
                       to="/teammembers"
+                      target="_blank"
                     >
                       <svg
                         class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
@@ -299,6 +303,7 @@ export default function NavBarV4({ bgColor, color, logo }) {
                     <Link
                       class="p-2 flex items-center text-md hover:bg-transparent rounded-lg focus:outline-none focus:bg-transparent dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 foa-book"
                       to="/careers"
+                      target="_blank"
                     >
                       <svg
                         class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
