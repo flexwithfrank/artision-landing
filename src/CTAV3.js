@@ -20,7 +20,7 @@ export default function CTAV4() {
           </div>
           <div className="mt-4 lg:mt-0 lg:ml-3 inline-flex rounded-full ">
             <Link
-              to="about"
+              to="/about"
               className="inline-flex items-center justify-center rounded-full border border-transparent bg-white px-5 py-3 text-base font-medium text-black hover:bg-indigo-50 foa-book"
             >
               Learn more
