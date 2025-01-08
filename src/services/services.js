@@ -10,13 +10,14 @@ import FooterV2 from "../FooterV2";
 import ChooseUs from "./chooseUs";
 import ContactForm from "./contactForm";
 import NavBarV4 from "../nav/navbarV4";
+import RpoCertified from "./rpoCertified";
 export default function Services() {
   return (
     <div class="bg-gray-800 relative">
       <NavBarV4
-      bgColor='#101827'
-      color="#FFF"
-      logo="https://ik.imagekit.io/dy6awnd3c/artesion-logo-website-V2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673416133437"
+        bgColor="#101827"
+        color="#FFF"
+        logo="https://ik.imagekit.io/dy6awnd3c/artesion-logo-website-V2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673416133437"
       />
       <Headline />
       <Clients />
@@ -26,7 +27,8 @@ export default function Services() {
       <ChooseUs />
       <Process />
       <RecommendedApproach />
-     <ContactForm />
+      <RpoCertified />
+      <ContactForm />
       <FooterV2 />
     </div>
   );

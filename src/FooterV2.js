@@ -192,11 +192,17 @@ export default function FooterV2() {
               </div>
               <div>
               <img
-                className="mx-auto mb-6 w-32 flex-col text-3xl font-bold md:text-5xl text-white"
+                className="mx-auto mb-6 w-24 flex-col text-3xl font-bold md:text-5xl text-white"
                 src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/59f/4uv/dzd/Screenshot%202024-11-29%20at%2010.19.06%20PM%201.png"
                 alt="cta-banner"
               />
+               <img
+                className="mx-auto mb-6 w-32 flex-col text-3xl font-bold md:text-5xl text-white"
+                src="https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/81p7eutj/i5q/3u7/43g/The%20CyberAB%20-%20CyberAB%20Registered%20Practitioner%20Organization%20%28RPO%29%20-%202025-01-06%20%281%29.png"
+                alt="cta-banner"
+              />
               </div>
+              
             </div>
           </div>
         </div>
